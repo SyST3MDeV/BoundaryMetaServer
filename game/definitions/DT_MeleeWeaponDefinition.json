@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_MeleeWeaponDefinition",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_MeleeWeaponDefinition_Release'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/DT_MeleeWeaponDefinition_Release.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_MeleeWeaponDefinition_Event'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/Events/DT_MeleeWeaponDefinition_Event.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PBMeleeWeaponDefinitionRow'",
+        "ObjectPath": "/Script/ProjectBoundary"
+      }
+    },
+    "Rows": {
+      "MELEE-KNIFE": {
+        "Description": {
+          "MeleeDamage": 130.0,
+          "VitalMeleeDamage": 390.0,
+          "DashMeleeDamage": 200.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Weapons/Melee/Mesh_St_Weap_FZKnife.Mesh_St_Weap_FZKnife",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MeleeWeapon.MeleeWeapon",
+            "Key": "ITEM_EQUIPMENT_MELEE_KNIFE.NAME",
+            "SourceString": "KNIFE",
+            "LocalizedString": "KNIFE"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MeleeWeapon.MeleeWeapon",
+            "Key": "ITEM_EQUIPMENT_MELEE_KNIFE.DESCRIPTION",
+            "SourceString": "Basic combat knife, capable of one hit kill when hitting the head.",
+            "LocalizedString": "Basic combat knife, capable of one hit kill when hitting the head."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/SSKnife.SSKnife",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::MeleeWeapon"
+        },
+        "Quota": 0,
+        "MeleeWeaponClass": {
+          "AssetPathName": "/Game/Blueprints/WEAP/MeleeWeapon/BasicKnife.BasicKnife_C",
+          "SubPathString": ""
+        }
+      },
+      "MELEE-HAMMER": {
+        "Description": {
+          "MeleeDamage": 200.0,
+          "VitalMeleeDamage": 300.0,
+          "DashMeleeDamage": 400.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Weapons/Melee/Hammer/Assasin_Hammer.Assasin_Hammer",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MeleeWeapon.MeleeWeapon",
+            "Key": "ITEM_EQUIPMENT_MELEE_HAMMER.NAME",
+            "SourceString": "HYDRAULIC HAMMER",
+            "LocalizedString": "HYDRAULIC HAMMER"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MeleeWeapon.MeleeWeapon",
+            "Key": "ITEM_EQUIPMENT_MELEE_HAMMER.DESCRIPTION",
+            "SourceString": "Deal higher damage than knife.",
+            "LocalizedString": "Deal higher damage than knife."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/ImpactHammer.ImpactHammer",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::MeleeWeapon"
+        },
+        "Quota": 2,
+        "MeleeWeaponClass": {
+          "AssetPathName": "/Game/Blueprints/WEAP/MeleeWeapon/PileHammer.PileHammer_C",
+          "SubPathString": ""
+        }
+      },
+      "EVENT-HAMMER": {
+        "Description": {
+          "MeleeDamage": 200.0,
+          "VitalMeleeDamage": 300.0,
+          "DashMeleeDamage": 400.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Weapons/Melee/Hammer/Assasin_Hammer.Assasin_Hammer",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MeleeWeapon.MeleeWeapon",
+            "Key": "ITEM_EQUIPMENT_MELEE_HAMMER.NAME",
+            "SourceString": "HYDRAULIC HAMMER",
+            "LocalizedString": "HYDRAULIC HAMMER"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MeleeWeapon.MeleeWeapon",
+            "Key": "ITEM_EQUIPMENT_MELEE_HAMMER.DESCRIPTION",
+            "SourceString": "Deal higher damage than knife.",
+            "LocalizedString": "Deal higher damage than knife."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/ImpactHammer.ImpactHammer",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::MeleeWeapon"
+        },
+        "Quota": 2,
+        "MeleeWeaponClass": {
+          "AssetPathName": "/Game/Blueprints/WEAP/MeleeWeapon/PileHammer.PileHammer_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

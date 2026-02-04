@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message QueryNotificationRequest{
+    string Platform = 1;
+    string LanguageCode = 2;
+    int32 Unknown1 = 3;
+    int32 Unknown2 = 4;
+}

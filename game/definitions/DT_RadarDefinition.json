@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_RadarDefinition",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_RadarDefinition_Release'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/DT_RadarDefinition_Release.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PBRadarDefinitionRow'",
+        "ObjectPath": "/Script/ProjectBoundary"
+      }
+    },
+    "Rows": {
+      "11001001": {
+        "Description": {
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Radar/StandardRadar/Mesh_St_Eqpm_StandardRadar.Mesh_St_Eqpm_StandardRadar",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "43A561E84DE68B0F45BE9A83DEB00AF7",
+            "SourceString": "STANDAR HEAT DETECTOR",
+            "LocalizedString": "STANDAR HEAT DETECTOR"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Radar"
+        },
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "11001002": {
+        "Description": {
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Radar/Mesh_St_Weap_MMWRadar.Mesh_St_Weap_MMWRadar",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "CFCED9584D11B48085E0C981AA18E4D2",
+            "SourceString": "HIGH SENSE HEAT DETECTOR",
+            "LocalizedString": "HIGH SENSE HEAT DETECTOR"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Radar"
+        },
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXHSHeatDetector_BP.PSXHSHeatDetector_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "11001003": {
+        "Description": {
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Radar/Mesh_St_Equm_LDR.Mesh_St_Equm_LDR",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "57E41FCD44FBEAE662E3BB8403D741BA",
+            "SourceString": "LOW POWER HEAT DETECTOR",
+            "LocalizedString": "LOW POWER HEAT DETECTOR"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Radar"
+        },
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXLPHeatDetector_BP.PSXLPHeatDetector_BP_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

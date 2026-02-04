@@ -1,0 +1,260 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_MobilityDefinition",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_MobilityDefinition_Release'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/DT_MobilityDefinition_Release.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_MobilityDefinition_Event'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/Events/DT_MobilityDefinition_Event.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PBMobilityDefinitionRow'",
+        "ObjectPath": "/Script/ProjectBoundary"
+      }
+    },
+    "Rows": {
+      "FCM-GRAPPLE": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_GRAPPLE.ABBR",
+            "SourceString": "GRAPPLE",
+            "LocalizedString": "GRAPPLE"
+          },
+          "UseTimes": 1.0,
+          "CoolDown": 8.0,
+          "MaxSpeed": 18.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/FuncModule/Hooker/Mesh_St_Equip_Grapple.Mesh_St_Equip_Grapple",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_GRAPPLE.NAME",
+            "SourceString": "GRAPPLE HOOK",
+            "LocalizedString": "GRAPPLE HOOK"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_GRAPPLE.DESCRIPTION",
+            "SourceString": "Launches a grapple hook towards a solid object and latches on.",
+            "LocalizedString": "Launches a grapple hook towards a solid object and latches on."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/hooker.hooker",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Mobility"
+        },
+        "Quota": 4,
+        "MobilityClass": {
+          "AssetPathName": "/Game/Blueprints/SkillModule/CatchingModule_BP.CatchingModule_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "FCM-BRAKE": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_BRAKE.ABBR",
+            "SourceString": "BRAKE",
+            "LocalizedString": "BRAKE"
+          },
+          "UseTimes": 1.0,
+          "CoolDown": 0.0,
+          "MaxSpeed": 0.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/FuncModule/Brake/Mesh_St_Eqpm_Brake.Mesh_St_Eqpm_Brake",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_BRAKE.NAME",
+            "SourceString": "MOMENTUM BRAKE",
+            "LocalizedString": "MOMENTUM BRAKE"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_BRAKE.DESCRIPTION",
+            "SourceString": "Halts all directional movement.",
+            "LocalizedString": "Halts all directional movement."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Brake.Brake",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Mobility"
+        },
+        "Quota": 0,
+        "MobilityClass": {
+          "AssetPathName": "/Game/Blueprints/SkillModule/BrakingModule_BP.BrakingModule_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "FCM-DASH": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_DASH.ABBR",
+            "SourceString": "J.E.T.",
+            "LocalizedString": "J.E.T."
+          },
+          "UseTimes": 2.0,
+          "CoolDown": 9.0,
+          "MaxSpeed": 15.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/FuncModule/MotionControler/Mesh_St_Eqpm_MotionControler.Mesh_St_Eqpm_MotionControler",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_DASH.NAME",
+            "SourceString": "MANEUVERABILITY DEVICE",
+            "LocalizedString": "MANEUVERABILITY DEVICE"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_DASH.DESCRIPTION",
+            "SourceString": "Instantly propels in any one direction",
+            "LocalizedString": "Instantly propels in any one direction"
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/MotionControler.MotionControler",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Mobility"
+        },
+        "Quota": 7,
+        "MobilityClass": {
+          "AssetPathName": "/Game/Blueprints/SkillModule/DashModule_BP.DashModule_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "FCM-BOOST": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_AFTERBURNER.ABBR",
+            "SourceString": "A.BURN.",
+            "LocalizedString": "A.BURN."
+          },
+          "UseTimes": 1.0,
+          "CoolDown": 12.0,
+          "MaxSpeed": 12.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/FuncModule/Brake/Mesh_St_Eqpm_Brake.Mesh_St_Eqpm_Brake",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_AFTERBURNER.NAME",
+            "SourceString": "AFTERBURNER",
+            "LocalizedString": "AFTERBURNER"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_AFTERBURNER.DESCRIPTION",
+            "SourceString": "Temporarily increases movement speed.",
+            "LocalizedString": "Temporarily increases movement speed."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Brake.Brake",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Mobility"
+        },
+        "Quota": 4,
+        "MobilityClass": {
+          "AssetPathName": "/Game/Blueprints/SkillModule/PBOverBoostModule_BP.PBOverBoostModule_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "EVENT-FCM-GRAPPLE": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/MobilityModule.MobilityModule",
+            "Key": "ITEM_EQUIPMENT_MOBILITY_GRAPPLE.ABBR",
+            "SourceString": "GRAPPLE",
+            "LocalizedString": "GRAPPLE"
+          },
+          "UseTimes": 1.0,
+          "CoolDown": 0.1,
+          "MaxSpeed": 24.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/FuncModule/Hooker/Mesh_St_Equip_Grapple.Mesh_St_Equip_Grapple",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Custom/equipment/Custom_MobilityModuleName.Custom_MobilityModuleName",
+            "Key": "GRAPPLE",
+            "SourceString": "GRAPPLE HOOK",
+            "LocalizedString": "GRAPPLE HOOK"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Custom/equipment/Custom_MobilityModuleIntroduce.Custom_MobilityModuleIntroduce",
+            "Key": "GRAPPLE",
+            "SourceString": "Will launch a grapple towing yourself",
+            "LocalizedString": "Will launch a grapple towing yourself"
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/hooker.hooker",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Mobility"
+        },
+        "Quota": 4,
+        "MobilityClass": {
+          "AssetPathName": "/Game/Blueprints/SkillModule/BP_CatchingModule_BP_NoCD.BP_CatchingModule_BP_NoCD_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1586 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_PodDefinition",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_PodDefinition_Release'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/DT_PodDefinition_Release.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_PodDefinition_Events'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/Events/DT_PodDefinition_Events.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_PodDefinition_Hardcore'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/Hardcore/DT_PodDefinition_Hardcore.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PBPodDefinitionRow'",
+        "ObjectPath": "/Script/ProjectBoundary"
+      }
+    },
+    "Rows": {
+      "ATK-HE": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE.Abbr",
+            "SourceString": "HE",
+            "LocalizedString": "HE"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 8.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 3.0,
+          "Damage": 120.0,
+          "EffectiveRadius": 5.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_CQB.Mesh_St_Weap_GrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_CQB.Mesh_St_Weap_GrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_CQB_R.Mesh_St_Weap_GrenadeLauncher_Semi_CQB_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE.NAME",
+            "SourceString": "HE Grenade",
+            "LocalizedString": "HE Grenade"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE.DESCRIPTION",
+            "SourceString": "High explosive grenade with a proximity fuse.",
+            "LocalizedString": "High explosive grenade with a proximity fuse."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_SidePodIcon_SemiGrdLch.Tex_UI_SidePodIcon_SemiGrdLch",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 6,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Grenade/PBGrenadeLauncher_CQB_BP.PBGrenadeLauncher_CQB_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "ATK-40CANNON": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_40CANON.Abbr",
+            "SourceString": "40mm",
+            "LocalizedString": "40mm"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 625.0,
+          "AmmoCapacity": 15.0,
+          "ReloadQuickness": 15.0,
+          "Damage": 70.0,
+          "EffectiveRadius": 4.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/AutoLauncher/Mesh_St_Weap_AutoLauncher_Dispaly_L.Mesh_St_Weap_AutoLauncher_Dispaly_L",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/AutoLauncher/Mesh_St_Weap_AutoLauncher_Dispaly_L.Mesh_St_Weap_AutoLauncher_Dispaly_L",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/AutoLauncher/Mesh_St_Weap_AutoLauncher_Dispaly_R.Mesh_St_Weap_AutoLauncher_Dispaly_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_40MMCANNON.NAME",
+            "SourceString": "40mm Cannon",
+            "LocalizedString": "40mm Cannon"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_40MMCANNON.DESCRIPTION",
+            "SourceString": "A heavy cannon capable of dealing high damage.",
+            "LocalizedString": "A heavy cannon capable of dealing high damage."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/auto_launcher.auto_launcher",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 6,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/AutoCanon/PBAutoCanonLauncher_BP.PBAutoCanonLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "ATK-TRIDENT": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_Trident.Abbr",
+            "SourceString": "TRIDENT",
+            "LocalizedString": "TRIDENT"
+          },
+          "DeployTime": 1.0,
+          "ProjectileVelocity": 680.0,
+          "AmmoCapacity": 100.0,
+          "ReloadQuickness": 4.2,
+          "Damage": 20.0,
+          "EffectiveRadius": 0.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/MniGun/Mesh_St_Weap_MiniGun/Mesh_St_weap_MiniGunCOMBINE_Left.Mesh_St_weap_MiniGunCOMBINE_Left",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/MniGun/Mesh_St_Weap_MiniGun/Mesh_St_weap_MiniGunCOMBINE_Left.Mesh_St_weap_MiniGunCOMBINE_Left",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/MniGun/Mesh_St_Weap_MiniGun/Mesh_St_weap_MiniGunCOMBINE_Right.Mesh_St_weap_MiniGunCOMBINE_Right",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MINIGUN.NAME",
+            "SourceString": "Trident MBMG",
+            "LocalizedString": "Trident MBMG"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MINIGUN.DESCRIPTION",
+            "SourceString": "Multi-barrel machine gun with extremely high rate of fire",
+            "LocalizedString": "Multi-barrel machine gun with extremely high rate of fire"
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/MiniGun.MiniGun",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 6,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/MiniGun/APBMiniGunLauncher_BP.APBMiniGunLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "ATK-HE-DRUM": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "Namespace": "",
+            "Key": "06D1F2C94A34A61F0859D793B7DAF18A",
+            "SourceString": "HE DRUM",
+            "LocalizedString": "HE DRUM"
+          },
+          "DeployTime": 2.0,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 6.0,
+          "ReloadQuickness": 18.0,
+          "Damage": 50.0,
+          "EffectiveRadius": 4.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/ProxiGrenade/Mesh_St_Weap_ProxiGrd_L.Mesh_St_Weap_ProxiGrd_L",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/ProxiGrenade/Mesh_St_Weap_ProxiGrd_L.Mesh_St_Weap_ProxiGrd_L",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/ProxiGrenade/Mesh_St_Weap_ProxiGrd_R.Mesh_St_Weap_ProxiGrd_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE-DRUM.NAME",
+            "SourceString": "HE DRUM",
+            "LocalizedString": "HE DRUM"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE-DRUM.DESCRIPTION",
+            "SourceString": "Drum magazine allows more small HE grenades to be loaded.",
+            "LocalizedString": "Drum magazine allows more small HE grenades to be loaded."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/ProxiGrd.ProxiGrd",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 6,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Grenade/PBGrenadeLauncher_Auto_BP.PBGrenadeLauncher_Auto_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "ATK-HE-HIVEL": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE-HIVEL.Abbr",
+            "SourceString": "HE HI-VEL",
+            "LocalizedString": "HE HI-VEL"
+          },
+          "DeployTime": 2.0,
+          "ProjectileVelocity": 70.0,
+          "AmmoCapacity": 3.0,
+          "ReloadQuickness": 18.0,
+          "Damage": 70.0,
+          "EffectiveRadius": 4.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_Longrange.Mesh_St_Weap_GrenadeLauncher_Semi_Longrange",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_Longrange.Mesh_St_Weap_GrenadeLauncher_Semi_Longrange",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_Longrange.Mesh_St_Weap_GrenadeLauncher_Semi_Longrange",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE-HI-VEL.NAME",
+            "SourceString": "HE HI-VEL",
+            "LocalizedString": "HE HI-VEL"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE-HI-VEL.DESCRIPTION",
+            "SourceString": "Fire faster-flying high explosive grenades at slower rates of fire",
+            "LocalizedString": "Fire faster-flying high explosive grenades at slower rates of fire"
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_SidePodIcon_SemiGrdLch_L.Tex_UI_SidePodIcon_SemiGrdLch_L",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 6,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Grenade/PBGrenadeLauncher_Longrange_BP.PBGrenadeLauncher_Longrange_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "ATK-BFG": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "Namespace": "",
+            "Key": "4A3D2D224CDDBCE032D7839A444E1E46",
+            "SourceString": "HE BFG",
+            "LocalizedString": "HE BFG"
+          },
+          "DeployTime": 1.5,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 15.0,
+          "Damage": 120.0,
+          "EffectiveRadius": 5.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_CQB.Mesh_St_Weap_GrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_CQB.Mesh_St_Weap_GrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_CQB_R.Mesh_St_Weap_GrenadeLauncher_Semi_CQB_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE-BFG.NAME",
+            "SourceString": "HE BFG",
+            "LocalizedString": "HE BFG"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE-BFG.DESCRIPTION",
+            "SourceString": "Big fearsome grenade that deals immense damage with one shot.",
+            "LocalizedString": "Big fearsome grenade that deals immense damage with one shot."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_SidePodIcon_SemiGrdLch.Tex_UI_SidePodIcon_SemiGrdLch",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 6,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Grenade/BP_PBGrenadeLauncher_Expel.BP_PBGrenadeLauncher_Expel_C",
+          "SubPathString": ""
+        }
+      },
+      "MISSILE-SPARROW": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SPARROW.Abbr",
+            "SourceString": "SPARROW",
+            "LocalizedString": "SPARROW"
+          },
+          "DeployTime": 0.8,
+          "ProjectileVelocity": 18.0,
+          "AmmoCapacity": 3.0,
+          "ReloadQuickness": 4.2,
+          "Damage": 80.0,
+          "EffectiveRadius": 3.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Mesh_St_Equm_SpaceSparrows_Left.Mesh_St_Equm_SpaceSparrows_Left",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Mesh_St_Equm_SpaceSparrows_Left.Mesh_St_Equm_SpaceSparrows_Left",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Mesh_St_Equm_SpaceSparrows.Mesh_St_Equm_SpaceSparrows",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MISSILE-TRI.NAME",
+            "SourceString": "SPACE SPARROW",
+            "LocalizedString": "SPACE SPARROW"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MISSLE-TRI.DESCRIPTION",
+            "SourceString": "Two mode guided missile.",
+            "LocalizedString": "Two mode guided missile."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/SpaceSparrows.SpaceSparrows",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 4,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Missile/APBHomingMissileLauncher_BP.APBHomingMissileLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "MISSILE-HIVE": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HIVE.Abbr",
+            "SourceString": "HIVE",
+            "LocalizedString": "HIVE"
+          },
+          "DeployTime": 0.8,
+          "ProjectileVelocity": 12.0,
+          "AmmoCapacity": 25.0,
+          "ReloadQuickness": 0.0,
+          "Damage": 40.0,
+          "EffectiveRadius": 3.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Missile_25/Mesh_St_Weap_Hive_Missile_Render.Mesh_St_Weap_Hive_Missile_Render",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Missile_25/Mesh_St_Weap_Hive_Missile_Render.Mesh_St_Weap_Hive_Missile_Render",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Missile_25/Mesh_St_Weap_Hive_Missile_Render_R.Mesh_St_Weap_Hive_Missile_Render_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MISSILE-HIVE.NAME",
+            "SourceString": "HIVE",
+            "LocalizedString": "HIVE"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MISSLE-HIVE.DESCRIPTION",
+            "SourceString": "When an enemy is marked it will automatically activate and when activated the use will fire 5 infra-red guided missiles to automatically track the marked enemy.",
+            "LocalizedString": "When an enemy is marked it will automatically activate and when activated the use will fire 5 infra-red guided missiles to automatically track the marked enemy."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Missile-25.Missile-25",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 4,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Missile/APBAutoMissileLauncher_BP.APBAutoMissileLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "SMK-TRI": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SMOKE.Abbr",
+            "SourceString": "SMOKE",
+            "LocalizedString": "SMOKE"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 3.0,
+          "ReloadQuickness": 15.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 4.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/SmokeGrenadeLauncher/Mesh_St_Weap_SGL_Dispaly_L.Mesh_St_Weap_SGL_Dispaly_L",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/SmokeGrenadeLauncher/Mesh_St_Weap_SGL_Dispaly_L.Mesh_St_Weap_SGL_Dispaly_L",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/SmokeGrenadeLauncher/Mesh_St_Weap_SGL_Dispaly_R.Mesh_St_Weap_SGL_Dispaly_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SMOKE-TRI.NAME",
+            "SourceString": "Smoke Launcher",
+            "LocalizedString": "Smoke Launcher"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SMOKE-TRI.DESCRIPTION",
+            "SourceString": "Deploy 3 Electro-static smoke screen grenades. Can effectively obscure the enemy's line of sight and recon device.",
+            "LocalizedString": "Deploy 3 Electro-static smoke screen grenades. Can effectively obscure the enemy's line of sight and recon device."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/SGL.SGL",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 4,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/SmokeGrenade/APBSmokeGrenadeLauncher_BP.APBSmokeGrenadeLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "SMK-SQUID": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SQUID.Abbr",
+            "SourceString": "SQUID",
+            "LocalizedString": "SQUID"
+          },
+          "DeployTime": 0.45,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 12.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 4.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/Mesh_St_Weap_ChaffLauncherR.Mesh_St_Weap_ChaffLauncherR",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/Mesh_St_Weap_ChaffLauncherL.Mesh_St_Weap_ChaffLauncherL",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/Mesh_St_Weap_ChaffLauncherR.Mesh_St_Weap_ChaffLauncherR",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SMOKE-SQUID.NAME",
+            "SourceString": "SQUID",
+            "LocalizedString": "SQUID"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SMOKE-SQUID.DESCRIPTION",
+            "SourceString": "Immediately deploy a smoke grenade around player.",
+            "LocalizedString": "Immediately deploy a smoke grenade around player."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Chaff_Launcher.Chaff_Launcher",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/SmokeGrenade/APBSmokeGrenadeLauncher_BP_Squid.APBSmokeGrenadeLauncher_BP_Squid_C",
+          "SubPathString": ""
+        }
+      },
+      "TAC-EMP": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_EMP.Abbr",
+            "SourceString": "EMP",
+            "LocalizedString": "EMP"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 3.0,
+          "Damage": 30.0,
+          "EffectiveRadius": 6.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB.Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB_L.Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB_L",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB.Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_EMP.NAME",
+            "SourceString": "EMP Grenade",
+            "LocalizedString": "EMP Grenade"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_EMP.DESCRIPTION",
+            "SourceString": "EMP grenade with a proximity fuse. able to temporarily paralyze the enemy within range.",
+            "LocalizedString": "EMP grenade with a proximity fuse. able to temporarily paralyze the enemy within range."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_SidePodIcon_SemiEMPLch.Tex_UI_SidePodIcon_SemiEMPLch",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/EMP/PBEMPGrenadeLauncher_BP.PBEMPGrenadeLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "TAC-EMP-DELAY": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_EMP.Abbr",
+            "SourceString": "EMP",
+            "LocalizedString": "EMP"
+          },
+          "DeployTime": 0.7,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 3.0,
+          "ReloadQuickness": 6.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 5.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB.Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB_L.Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB_L",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB.Mesh_St_Weap_EMPGrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_EMP.NAME",
+            "SourceString": "EMP Grenade",
+            "LocalizedString": "EMP Grenade"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_EMP.DESCRIPTION",
+            "SourceString": "EMP grenade with a proximity fuse. able to temporarily paralyze the enemy within range.",
+            "LocalizedString": "EMP grenade with a proximity fuse. able to temporarily paralyze the enemy within range."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_SidePodIcon_SemiEMPLch.Tex_UI_SidePodIcon_SemiEMPLch",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/EMP/PBEMPGrenadeLauncher_BP_Delay.PBEMPGrenadeLauncher_BP_Delay_C",
+          "SubPathString": ""
+        }
+      },
+      "TAC-MINE": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_EMPMINE.Abbr",
+            "SourceString": "EMP MINE",
+            "LocalizedString": "EMP MINE"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 40.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 18.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 5.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Mesh_St_Eqpm_Mine.Mesh_St_Eqpm_Mine",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Mesh_St_Eqpm_Mine.Mesh_St_Eqpm_Mine",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Mesh_St_Eqpm_Mine.Mesh_St_Eqpm_Mine",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MINE-EMP.NAME",
+            "SourceString": "EMP MINE",
+            "LocalizedString": "EMP MINE"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MINE-EMP.DESCRIPTION",
+            "SourceString": "Automatically detonates when the enemy approaches, and can paralyze the enemy for a period of time",
+            "LocalizedString": "Automatically detonates when the enemy approaches, and can paralyze the enemy for a period of time"
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_Eqpm_Mine.Tex_UI_Eqpm_Mine",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 4,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Grenade/PBTrapGrenadeLauncher_BP.PBTrapGrenadeLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "TAC-EMP-DRUM": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_EMP.Abbr",
+            "SourceString": "EMP",
+            "LocalizedString": "EMP"
+          },
+          "DeployTime": 0.7,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 6.0,
+          "ReloadQuickness": 18.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 5.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/EMPLauncher/Mesh_St_Weap_EMPLauncher_L.Mesh_St_Weap_EMPLauncher_L",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/EMPLauncher/Mesh_St_Weap_EMPLauncher_L.Mesh_St_Weap_EMPLauncher_L",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/EMPLauncher/Mesh_St_Weap_EMPLauncher_R.Mesh_St_Weap_EMPLauncher_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_EMP.NAME",
+            "SourceString": "EMP Grenade",
+            "LocalizedString": "EMP Grenade"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_EMP.DESCRIPTION",
+            "SourceString": "EMP grenade with a proximity fuse. able to temporarily paralyze the enemy within range.",
+            "LocalizedString": "EMP grenade with a proximity fuse. able to temporarily paralyze the enemy within range."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/EMP.EMP",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/EMP/PBEMPGrenadeLauncher_Auto_BP.PBEMPGrenadeLauncher_Auto_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "TAC-IMPLUSE": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_IMPULSE.Abbr",
+            "SourceString": "IMPULSE",
+            "LocalizedString": "IMPULSE"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 9.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 5.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB.Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB.Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB_R.Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_IMPLUSE.NAME",
+            "SourceString": "Impluse Grenade",
+            "LocalizedString": "Impluse Grenade"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_IMPLUSE.DESCRIPTION",
+            "SourceString": "Applies an impact to players within range of the explosion, causing them to move",
+            "LocalizedString": "Applies an impact to players within range of the explosion, causing them to move"
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_Weap_ImpluseGrenadeLauncher_semi_c.Tex_UI_Weap_ImpluseGrenadeLauncher_semi_c",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/ImpulseGrenade/BP_PBImpulseGrenadeLauncher.BP_PBImpulseGrenadeLauncher_C",
+          "SubPathString": ""
+        }
+      },
+      "TAC-ADS": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_ADS.Abbr",
+            "SourceString": "ADS",
+            "LocalizedString": "ADS"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 15.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 7.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/ADS/Mesh_St_Eqp_ADS.Mesh_St_Eqp_ADS",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/ADS/Mesh_St_Eqp_ADS.Mesh_St_Eqp_ADS",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/ADS/Mesh_St_ADS_R.Mesh_St_ADS_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_ADS.NAME",
+            "SourceString": "ADS",
+            "LocalizedString": "ADS"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_ADS.DESCRIPTION",
+            "SourceString": "Active-Defence System will intercept any hostile flying object within range.",
+            "LocalizedString": "Active-Defence System will intercept any hostile flying object within range."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_Weap_ADS.Tex_UI_Weap_ADS",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 4,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/ADS/PBDeployableADSLauncher_BP.PBDeployableADSLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "TAC-MED": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MED.Abbr",
+            "SourceString": "MED",
+            "LocalizedString": "MED"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 15.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 5.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/MED/Mesh_St_Eqp_MedRig.Mesh_St_Eqp_MedRig",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/MED/Mesh_St_Eqp_MedRig.Mesh_St_Eqp_MedRig",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/MED/Mesh_St_Eqp_MedRig_Display_R.Mesh_St_Eqp_MedRig_Display_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MED.NAME",
+            "SourceString": "MED",
+            "LocalizedString": "MED"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MED.DESCRIPTION",
+            "SourceString": "The MED is able to automatically repair the spacesuits of the teammates nearby.",
+            "LocalizedString": "The MED is able to automatically repair the spacesuits of the teammates nearby."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_Eqp_MedRig.Tex_UI_Eqp_MedRig",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 4,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/MED/PBMedStationLauncher_BP.PBMedStationLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "INFO-PROBE": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_Probe.Abbr",
+            "SourceString": "PROBE",
+            "LocalizedString": "PROBE"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 30.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 10.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 15.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/SensorLauncher/Mesh_St_Eqp_SensorLauncher.Mesh_St_Eqp_SensorLauncher",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/SensorLauncher/Mesh_St_Eqp_SensorLauncher_L.Mesh_St_Eqp_SensorLauncher_L",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/SensorLauncher/Mesh_St_Eqp_SensorLauncher.Mesh_St_Eqp_SensorLauncher",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_PROBE.NAME",
+            "SourceString": "PROBE",
+            "LocalizedString": "PROBE"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_PROBE.DESCRIPTION",
+            "SourceString": "Probes will mark enemies nearby after deployed.",
+            "LocalizedString": "Probes will mark enemies nearby after deployed."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/SensorLauncher.SensorLauncher",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 5,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Sensor/PBSensorLauncher_BP.PBSensorLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "INFO-SNAPSHOT": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_Snapshot.Abbr",
+            "SourceString": "SNAPSHOT",
+            "LocalizedString": "SNAPSHOT"
+          },
+          "DeployTime": 0.5,
+          "ProjectileVelocity": 30.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 10.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 1000.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/Snapshot/Mesh_St_Eqp_Snapshot.Mesh_St_Eqp_Snapshot",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/Snapshot/Mesh_St_Eqp_Snapshot.Mesh_St_Eqp_Snapshot",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/Snapshot/Mesh_St_Eqp_Snapshot_R.Mesh_St_Eqp_Snapshot_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SNAPSHOT.NAME",
+            "SourceString": "SNAPSHOT SENSOR",
+            "LocalizedString": "SNAPSHOT SENSOR"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SNAPSHOT.DESCRIPTION",
+            "SourceString": "Activated by pressing the right button (LT), activation will mark all enemies within visible range.",
+            "LocalizedString": "Activated by pressing the right button (LT), activation will mark all enemies within visible range."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/SensorLauncher.SensorLauncher",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/SnapshotGrenade/PBSnapshotGrenadeLauncher_BP.PBSnapshotGrenadeLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "INFO-MOTION": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_Motion.Abbr",
+            "SourceString": "MOTION",
+            "LocalizedString": "MOTION"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 15.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 10.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/SensorLauncher/Mesh_St_Eqp_SensorLauncher.Mesh_St_Eqp_SensorLauncher",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/SensorLauncher/Mesh_St_Eqp_SensorLauncher_L.Mesh_St_Eqp_SensorLauncher_L",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/SensorLauncher/Mesh_St_Eqp_SensorLauncher.Mesh_St_Eqp_SensorLauncher",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MOTIONSENSOR.NAME",
+            "SourceString": "MOTION SENSOR",
+            "LocalizedString": "MOTION SENSOR"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MOTIONSENSOR.DESCRIPTION",
+            "SourceString": "When an enemy passes near the motion sensor, the sensor will sound an alarm.",
+            "LocalizedString": "When an enemy passes near the motion sensor, the sensor will sound an alarm."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/SensorLauncher.SensorLauncher",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Sensor/PBMotionSensorLauncher_BP.PBMotionSensorLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "LotsNades": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "CultureInvariantString": null
+          },
+          "DeployTime": 0.0,
+          "ProjectileVelocity": 0.0,
+          "AmmoCapacity": 0.0,
+          "ReloadQuickness": 0.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 0.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/ProxiGrenade/Mesh_St_Weap_ProxiGrd_L.Mesh_St_Weap_ProxiGrd_L",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/ProxiGrenade/Mesh_St_Weap_ProxiGrd_L.Mesh_St_Weap_ProxiGrd_L",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/ProxiGrenade/Mesh_St_Weap_ProxiGrd_R.Mesh_St_Weap_ProxiGrd_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Custom/equipment/Custom_PylonName.Custom_PylonName",
+            "Key": "AUTO_GRENADE",
+            "SourceString": "HE DRUM",
+            "LocalizedString": "HE DRUM"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Custom/equipment/Custom_PylonIntroduce.Custom_PylonIntroduce",
+            "Key": "HE_DRUM",
+            "SourceString": "Continuous firing multiple HE greandes.",
+            "LocalizedString": "Continuous firing multiple HE greandes."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/ProxiGrd.ProxiGrd",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Grenade/Meme/BP_PBGrenadeLauncher_MADNESS.BP_PBGrenadeLauncher_MADNESS_C",
+          "SubPathString": ""
+        }
+      },
+      "EMP-INF": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE-HIVEL.Abbr",
+            "SourceString": "HE HI-VEL",
+            "LocalizedString": "HE HI-VEL"
+          },
+          "DeployTime": 0.7,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 3.0,
+          "ReloadQuickness": 6.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 5.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_Longrange.Mesh_St_Weap_GrenadeLauncher_Semi_Longrange",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_Longrange.Mesh_St_Weap_GrenadeLauncher_Semi_Longrange",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_GrenadeLauncher_Semi_Longrange.Mesh_St_Weap_GrenadeLauncher_Semi_Longrange",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE-HI-VEL.NAME",
+            "SourceString": "HE HI-VEL",
+            "LocalizedString": "HE HI-VEL"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HE-HI-VEL.DESCRIPTION",
+            "SourceString": "Fire faster-flying high explosive grenades at slower rates of fire",
+            "LocalizedString": "Fire faster-flying high explosive grenades at slower rates of fire"
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_SidePodIcon_SemiGrdLch_L.Tex_UI_SidePodIcon_SemiGrdLch_L",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/EMP/BP_PBEMPGrenadeLauncher_BP_Delay_INF.BP_PBEMPGrenadeLauncher_BP_Delay_INF_C",
+          "SubPathString": ""
+        }
+      },
+      "IMPULSE-INF": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_IMPULSE.Abbr",
+            "SourceString": "IMPULSE",
+            "LocalizedString": "IMPULSE"
+          },
+          "DeployTime": 0.6,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 9.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 5.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB.Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB.Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/GrenadeLauncher/Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB_R.Mesh_St_Weap_ImpluseGrenadeLauncher_Semi_CQB_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_IMPLUSE.NAME",
+            "SourceString": "Impluse Grenade",
+            "LocalizedString": "Impluse Grenade"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_IMPLUSE.DESCRIPTION",
+            "SourceString": "Applies an impact to players within range of the explosion, causing them to move",
+            "LocalizedString": "Applies an impact to players within range of the explosion, causing them to move"
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_Weap_ImpluseGrenadeLauncher_semi_c.Tex_UI_Weap_ImpluseGrenadeLauncher_semi_c",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/ImpulseGrenade/BP_PBImpulseGrenadeLauncher_INF.BP_PBImpulseGrenadeLauncher_INF_C",
+          "SubPathString": ""
+        }
+      },
+      "EVENT-SQUID-INF": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SQUID.Abbr",
+            "SourceString": "SQUID",
+            "LocalizedString": "SQUID"
+          },
+          "DeployTime": 0.45,
+          "ProjectileVelocity": 20.0,
+          "AmmoCapacity": 1.0,
+          "ReloadQuickness": 12.0,
+          "Damage": 0.0,
+          "EffectiveRadius": 4.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/Mesh_St_Weap_ChaffLauncherR.Mesh_St_Weap_ChaffLauncherR",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/Mesh_St_Weap_ChaffLauncherL.Mesh_St_Weap_ChaffLauncherL",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/Mesh_St_Weap_ChaffLauncherR.Mesh_St_Weap_ChaffLauncherR",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SMOKE-SQUID.NAME",
+            "SourceString": "SQUID",
+            "LocalizedString": "SQUID"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_SMOKE-SQUID.DESCRIPTION",
+            "SourceString": "Immediately deploy a smoke grenade around player.",
+            "LocalizedString": "Immediately deploy a smoke grenade around player."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Chaff_Launcher.Chaff_Launcher",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 3,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/SmokeGrenade/BP_APBSmokeGrenadeLauncher_BP_Squid_INF.BP_APBSmokeGrenadeLauncher_BP_Squid_INF_C",
+          "SubPathString": ""
+        }
+      },
+      "MISSILE-HIVE-DIRECT": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_HIVE.Abbr",
+            "SourceString": "HIVE",
+            "LocalizedString": "HIVE"
+          },
+          "DeployTime": 0.8,
+          "ProjectileVelocity": 12.0,
+          "AmmoCapacity": 25.0,
+          "ReloadQuickness": 0.0,
+          "Damage": 40.0,
+          "EffectiveRadius": 3.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Missile_25/Mesh_St_Weap_Hive_Missile_Render.Mesh_St_Weap_Hive_Missile_Render",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Missile_25/Mesh_St_Weap_Hive_Missile_Render.Mesh_St_Weap_Hive_Missile_Render",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/Missile_25/Mesh_St_Weap_Hive_Missile_Render_R.Mesh_St_Weap_Hive_Missile_Render_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MISSILE-HIVE.NAME",
+            "SourceString": "HIVE",
+            "LocalizedString": "HIVE"
+          },
+          "Description": {
+            "TableId": "/Game/StringTable/Localization/Item/Equipment/SidePod.SidePod",
+            "Key": "ITEM_EQUIPMENT_POD_MISSLE-HIVE.DESCRIPTION",
+            "SourceString": "When an enemy is marked it will automatically activate and when activated the use will fire 5 infra-red guided missiles to automatically track the marked enemy.",
+            "LocalizedString": "When an enemy is marked it will automatically activate and when activated the use will fire 5 infra-red guided missiles to automatically track the marked enemy."
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Missile-25.Missile-25",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 4,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/Missile/APBAutoMissileLauncher_Direct_BP.APBAutoMissileLauncher_Direct_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "MISSILE-SHIELDHOVER": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Operations/SpecialPod.SpecialPod",
+            "Key": "Operations_SpecialPod_Shield-Launcher.Name",
+            "SourceString": "Shield-Launcher",
+            "LocalizedString": "Shield-Launcher"
+          },
+          "DeployTime": 0.8,
+          "ProjectileVelocity": 12.0,
+          "AmmoCapacity": 25.0,
+          "ReloadQuickness": 0.0,
+          "Damage": 40.0,
+          "EffectiveRadius": 3.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/ADS/Mesh_St_Eqp_ADS.Mesh_St_Eqp_ADS",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/ADS/Mesh_St_Eqp_ADS.Mesh_St_Eqp_ADS",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Tactical/ADS/Mesh_St_ADS_R.Mesh_St_ADS_R",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Operations/SpecialPod.SpecialPod",
+            "Key": "Operations_SpecialPod_Shield-Launcher.Name",
+            "SourceString": "Shield-Launcher",
+            "LocalizedString": "Shield-Launcher"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Tex_UI_SidePodIcon_Shield.Tex_UI_SidePodIcon_Shield",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 4,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/ShieldHover/PBShiledHoverLauncher_BP.PBShiledHoverLauncher_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "MINIGUN-SHIELD": {
+        "Description": {
+          "DisplayNameAbbreviation": {
+            "TableId": "/Game/StringTable/Localization/Operations/SpecialPod.SpecialPod",
+            "Key": "Operations_SpecialPod_Shield-Machine-Gun.Name",
+            "SourceString": "Shield-MG",
+            "LocalizedString": "Shield-MG"
+          },
+          "DeployTime": 1.0,
+          "ProjectileVelocity": 680.0,
+          "AmmoCapacity": 100.0,
+          "ReloadQuickness": 4.2,
+          "Damage": 20.0,
+          "EffectiveRadius": 0.0,
+          "DisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/MniGun/Mesh_St_Weap_MiniGun/Mesh_St_weap_MiniGunCOMBINE_Left.Mesh_St_weap_MiniGunCOMBINE_Left",
+            "SubPathString": ""
+          },
+          "LeftDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/MniGun/Mesh_St_Weap_MiniGun/Mesh_St_weap_MiniGunCOMBINE_Left.Mesh_St_weap_MiniGunCOMBINE_Left",
+            "SubPathString": ""
+          },
+          "RightDisplayMesh": {
+            "AssetPathName": "/Game/Equipments/Combat/MniGun/Mesh_St_Weap_MiniGun/Mesh_St_weap_MiniGunCOMBINE_Right.Mesh_St_weap_MiniGunCOMBINE_Right",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Operations/SpecialPod.SpecialPod",
+            "Key": "Operations_SpecialPod_Shield-Machine-Gun.Name",
+            "SourceString": "Shield-MG",
+            "LocalizedString": "Shield-MG"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/MiniGun.MiniGun",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Pod"
+        },
+        "Quota": 4,
+        "PodClass": {
+          "AssetPathName": "/Game/Blueprints/PackModules/MiniGun/BP_PBMiniGunWithShieldLauncher.BP_PBMiniGunWithShieldLauncher_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

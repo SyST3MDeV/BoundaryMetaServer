@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message GetPlayerArchiveV2Request{
+    repeated string RoleIDs = 1;
+}

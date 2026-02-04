@@ -1,0 +1,5 @@
+protobuf vtable structure
+
+0: name of proto
+8: parse (read)
+9: serialize (write)

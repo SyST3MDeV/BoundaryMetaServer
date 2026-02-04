@@ -1,0 +1,205 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_VehicleDefinition",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_VehicleDefinition_Release'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/DT_VehicleDefinition_Release.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_VehicleDefinition_Events'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/Events/DT_VehicleDefinition_Events.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PBVehicleDefinitionRow'",
+        "ObjectPath": "/Script/ProjectBoundary"
+      }
+    },
+    "Rows": {
+      "6001001": {
+        "Description": {
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Custom/equipment/Custom_PacKName.Custom_PacKName",
+            "Key": "Original",
+            "SourceString": "ORIGINAL",
+            "LocalizedString": "ORIGINAL"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/backpackM.backpackM",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Vehicle"
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_StandardVehicle_BP.PB_StandardVehicle_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "6001002": {
+        "Description": {
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Custom/equipment/Custom_PacKName.Custom_PacKName",
+            "Key": "Original",
+            "SourceString": "ORIGINAL",
+            "LocalizedString": "ORIGINAL"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Backpack_Assault.Backpack_Assault",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Vehicle"
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_AssaulterVehicle_BP.PB_AssaulterVehicle_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "6001003": {
+        "Description": {
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Custom/equipment/Custom_PacKName.Custom_PacKName",
+            "Key": "Original",
+            "SourceString": "ORIGINAL",
+            "LocalizedString": "ORIGINAL"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/Backpack_Sniper.Backpack_Sniper",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Vehicle"
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_SniperVehicle_BP.PB_SniperVehicle_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "6002001": {
+        "Description": {
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Custom/equipment/Custom_PacKName.Custom_PacKName",
+            "Key": "LITE",
+            "SourceString": "LITE PACK",
+            "LocalizedString": "LITE PACK"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/backpackL.backpackL",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Vehicle"
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_BurstVehicle_BP.PB_BurstVehicle_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "6003001": {
+        "Description": {
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Custom/equipment/Custom_PacKName.Custom_PacKName",
+            "Key": "HEAVY",
+            "SourceString": "HEAVY PACK",
+            "LocalizedString": "HEAVY PACK"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/backpackH.backpackH",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Vehicle"
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_EnduranceVehicle_BP.PB_EnduranceVehicle_BP_C",
+          "SubPathString": ""
+        }
+      },
+      "SuperFast": {
+        "Description": {
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Custom/equipment/Custom_PacKName.Custom_PacKName",
+            "Key": "LITE",
+            "SourceString": "LITE PACK",
+            "LocalizedString": "LITE PACK"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/HUD/Weapons/ItemIcon/backpackL.backpackL",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Vehicle"
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/BP_SuperFastVehicle.BP_SuperFastVehicle_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

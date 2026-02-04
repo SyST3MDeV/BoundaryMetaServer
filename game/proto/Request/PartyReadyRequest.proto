@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message PartyReadyRequest{
+    string PartyId = 1;
+}

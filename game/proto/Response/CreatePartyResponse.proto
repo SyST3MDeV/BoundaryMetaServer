@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message CreatePartyResponse{
+    int32 StatusCode = 1;
+    string PartyId = 2;
+    repeated string PartyMembers = 3;
+}

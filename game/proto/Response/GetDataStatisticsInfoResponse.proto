@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message PlayerDatapoint{
+    string Key = 1;
+    sint32 Value = 2;
+}
+
+message GetDataStatisticsInfoResponse{
+    int32 StatusCode = 1;
+    repeated PlayerDatapoint Datapoints = 2;
+}

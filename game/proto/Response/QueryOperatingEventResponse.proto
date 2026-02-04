@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message QueryOperatingEventResponse{
+    int32 StatusCode = 1;
+}

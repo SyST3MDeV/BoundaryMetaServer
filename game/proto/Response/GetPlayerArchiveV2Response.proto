@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message PlayerRoleData{
+    string RoleID = 1;
+    string LeftPylon = 2;
+    string RightPylon = 3;
+    string MobilityModule = 4;
+    string MeleeWeapon = 5;
+    string PrimaryWeapon = 6;
+    string SecondWeapon = 7;
+}
+
+message GetPlayerArchiveV2Response{
+    repeated PlayerRoleData PlayerRoleDatas = 1;
+    int32 PlayerLevel = 2;
+}

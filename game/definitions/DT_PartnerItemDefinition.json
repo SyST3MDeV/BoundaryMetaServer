@@ -1,0 +1,471 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_PartnerItemDefinition",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_PartnerItemDefinition_Release'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/DT_PartnerItemDefinition_Release.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PBPartnerItemDefinitionRow'",
+        "ObjectPath": "/Script/ProjectBoundary"
+      }
+    },
+    "Rows": {
+      "SNIPER_AMD": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "SNIPER_AMD_PTAMD": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "SkinPSRAMD": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-PSR_AMD_PTAMD": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-AMD": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGAMD": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-TWITCH": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "SPIDER_ORIGINAL_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "FIXER_ORIGINAL_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "SPIKE_ORIGINAL_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "FORT_ORIGINAL_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "SNIPER_ORIGINAL_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "PROBE_ORIGINAL_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "PEACE_ORIGINAL_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RU-PTRD_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RU-SAIGA12_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RU-SVD_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RU-TP82_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RU-APS_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RU-MOSIN_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RU-KP9_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RU-RPK_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RU-AKM_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-CARKIT_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-CDP_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-PCC_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-FOP_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-AMR_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-PSR-C_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-PSR_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-MG_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-SG_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-SMG_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-IDW_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-DMR_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "GSW-AR_Original_PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGKOI": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-KOI": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-ROG": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-GuRenTongXin": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-HeyBox": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-HuJiaoWangGuan": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-HuyaGZ": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-HuyaZB": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-LevelCap": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-Miao": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-ShenJingGe": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-SteelSeries": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGVGN": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGATian": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGBanBenShu": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGHuyaZhubo": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGGamerSky": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGGuRenTongXin": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGHeyBox": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGHuJiaoWangGuan": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGLevelCap": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGMiao": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGMrBill": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGHuYaGuanZhong": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGQingBaoJu": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGQiYou": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGROG": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGShenJingGe": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGSteelSeries": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGUU": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGXunYou": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABDDouYin": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "PTTwitch": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGLeiGod": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGPioneerX": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "PTAMD": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGFoZhu": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGHuoShan": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGLangRen": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGYingYou": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGJiuCi": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGXiaoSong": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGFeiDie": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGLeiLei": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ABGXiaoSheng": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-FoZhu": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-HuoShan": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-LangRen": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-YingYou": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-JiuCi": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-XiaoSong": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-FeiDie": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-LeiLei": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WO-XiaoSheng": {
+        "Description": {
+          "CultureInvariantString": null
+        }
+      }
+    }
+  }
+]

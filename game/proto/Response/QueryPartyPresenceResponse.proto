@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message PartyMemberPresence{
+    string UserId = 1;
+    string Status = 2;
+}
+
+message QueryPartyPresenceResponse{
+    int32 StatusCode = 1;
+    repeated PartyMemberPresence PartyMembers = 2;
+}

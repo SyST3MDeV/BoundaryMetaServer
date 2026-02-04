@@ -1,0 +1,4896 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_CharacterDefinition",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_CharacterDefinition_EarlyAccess'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/DT_CharacterDefinition_EarlyAccess.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_CharacterDefinition_FixRole'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/PAX/DT_CharacterDefinition_FixRole.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_CharacterDefinition_AI'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/Hardcore/DT_CharacterDefinition_AI.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_CharacterDefinition_Hardcore_02'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/Hardcore/DT_CharacterDefinition_Hardcore_02.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PBCharacterDefinitionRow'",
+        "ObjectPath": "/Script/ProjectBoundary"
+      }
+    },
+    "Rows": {
+      "PEACE": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PEACE.CALLSIGN",
+            "SourceString": "ORLAN",
+            "LocalizedString": "ORLAN"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "VODKA_INTRODUCE",
+            "SourceString": "Former police instructor, proficient in all kinds of firearms.",
+            "LocalizedString": "Former police instructor, proficient in all kinds of firearms."
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PEACE.DESCRIPTION",
+            "SourceString": "Firearms Expert",
+            "LocalizedString": "Firearms Expert"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assault.Tex_StaticUI_Logo_Assault",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER.SER",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "ASSULTER_1",
+              "SourceString": "Gunslinger",
+              "LocalizedString": "Gunslinger"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "ASSULTER_2",
+              "SourceString": "Accelerator",
+              "LocalizedString": "Accelerator"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "ASSULTER_1",
+              "SourceString": "Combat experience makes you handy with handheld weapons",
+              "LocalizedString": "Combat experience makes you handy with handheld weapons"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "ASSULTER_2",
+              "SourceString": "Pumps in your favorite functional substances increases neural excitability",
+              "LocalizedString": "Pumps in your favorite functional substances increases neural excitability"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "7F9FB8784BEFA94F361B8CA7B26D1594",
+                "SourceString": "Compressor Shield",
+                "LocalizedString": "Compressor Shield"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIconSuport.T_SkillIconSuport",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "23F29643491A2A652AAB9C8AAD184D13",
+                "SourceString": "Overpressure the suit's semi-liquid armor to resist more damage.##\"It's not comfortable, but effective.\"",
+                "LocalizedString": "Overpressure the suit's semi-liquid armor to resist more damage.##\"It's not comfortable, but effective.\""
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "56E52B174CD8AA766B08B09352C54507",
+                "SourceString": "Com-Bloc Gunner",
+                "LocalizedString": "Com-Bloc Gunner"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Sniper1.T_SkillIcon_Sniper1",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "41EF4C404C42119B9A0CD4B35227F0F1",
+                "SourceString": "Call them old school, what ever.##Those Com-Bloc style firearms make Sergeyev feels right at home.",
+                "LocalizedString": "Call them old school, what ever.##Those Com-Bloc style firearms make Sergeyev feels right at home."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Basic",
+          "ArmorLevel": "EPBCharacterPropertyLevel::High",
+          "MobilityLevel": "EPBCharacterPropertyLevel::Medium",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER.SER",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_Sign.SER_Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_P_L.SER_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Assaulter.Assaulter",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PEACE.CALLSIGN",
+            "SourceString": "ORLAN",
+            "LocalizedString": "ORLAN"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assault.Tex_StaticUI_Logo_Assault",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "PEACE_RU-AKM",
+            "PEACE_GSW-AR",
+            "PEACE_GSW-DMR",
+            "PEACE_RU-SVD",
+            "PEACE_GSW-SMG",
+            "PEACE_GSW-PCC",
+            "PEACE_GSW-CARKIT",
+            "PEACE_RU-APS",
+            "PEACE_GSW-IDW",
+            "PEACE_GSW-FOP",
+            "PEACE_GSW-CDP"
+          ],
+          "PodScope": [
+            "PEACE_ATK-HE",
+            "PEACE_TAC-EMP"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "PEACE_FCM-BOOST",
+            "PEACE_FCM-GRAPPLE",
+            "PEACE_FCM-BRAKE"
+          ],
+          "SpaceSuitSkinScope": [
+            "PEACE_ORIGINAL",
+            "PEACE_TIGER"
+          ],
+          "ArmBadgeScope": [
+            "ABGOrlanDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOTigerHatSergey"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6001002",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_AssaulterVehicle_BP.PB_AssaulterVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Assault.PBCharacter_BP_Assault_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_ORLAN_EA.DA_CharacterDefault_ORLAN_EA",
+          "SubPathString": ""
+        }
+      },
+      "PROBE": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PROBE.CALLSIGN",
+            "SourceString": "PROBE",
+            "LocalizedString": "PROBE"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "PROBE_INTRODUCE",
+            "SourceString": "PROBE INTRODUCE",
+            "LocalizedString": "PROBE INTRODUCE"
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PROBE.DESCRIPTION",
+            "SourceString": "Frontline Early Warning",
+            "LocalizedString": "Frontline Early Warning"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Recon.Tex_StaticUI_Logo_Recon",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_PROBE_Inst.Mat_StaticUI_Image_PROBE_Inst",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "RECON_1",
+              "SourceString": "Passive Radar",
+              "LocalizedString": "Passive Radar"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "RECON_2",
+              "SourceString": "Probe Sensor",
+              "LocalizedString": "Probe Sensor"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "RECON_1",
+              "SourceString": "Lock all suspicious signal within a certain distance",
+              "LocalizedString": "Lock all suspicious signal within a certain distance"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "RECON_2",
+              "SourceString": "Scan for enemy signals after launched",
+              "LocalizedString": "Scan for enemy signals after launched"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "RECON_1",
+                "SourceString": "Passive Radar",
+                "LocalizedString": "Passive Radar"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/Menu_V2/Textures/Career/Tex_UI_Icon_AOSkill_PassiveRadar.Tex_UI_Icon_AOSkill_PassiveRadar",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "RECON_1",
+                "SourceString": "Lock all suspicious signal within a certain distance",
+                "LocalizedString": "Lock all suspicious signal within a certain distance"
+              }
+            },
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "RECON_2",
+                "SourceString": "Probe Sensor",
+                "LocalizedString": "Probe Sensor"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Recon.T_SkillIcon_Recon",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "RECON_2",
+                "SourceString": "Scan for enemy signals after launched",
+                "LocalizedString": "Scan for enemy signals after launched"
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Medium",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Basic",
+          "MobilityLevel": "EPBCharacterPropertyLevel::High",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_PROBE_Inst.Mat_StaticUI_Image_PROBE_Inst",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/Test/CT_NewSystemTest/Sign.Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_P_L.SER_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Recon.Recon",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PROBE.CALLSIGN",
+            "SourceString": "PROBE",
+            "LocalizedString": "PROBE"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Recon.Tex_StaticUI_Logo_Recon",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "PROBE_GSW-DMR",
+            "PROBE_GSW-AR",
+            "PROBE_RU-AKM",
+            "PROBE_RU-SVD",
+            "PROBE_GSW-CDP",
+            "PROBE_GSW-FOP",
+            "PROBE_GSW-IDW",
+            "PROBE_RU-APS"
+          ],
+          "PodScope": [
+            "PROBE_MISSILE-HIVE",
+            "PROBE_INFO-PROBE",
+            "PROBE_MISSILE-SPARROW",
+            "PROBE_TAC-EMP",
+            "PROBE_ATK-HE",
+            "PROBE_INFO-MOTION"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "PROBE_FCM-GRAPPLE",
+            "PROBE_FCM-BRAKE"
+          ],
+          "SpaceSuitSkinScope": [
+            "PROBE_ORIGINAL"
+          ],
+          "ArmBadgeScope": [
+            "ABGProbeDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6001001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_StandardVehicle_BP.PB_StandardVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Recon.PBCharacter_BP_Recon_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_PROBE_EA.DA_CharacterDefault_PROBE_EA",
+          "SubPathString": ""
+        }
+      },
+      "SNIPER": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SNIPE.CALLSIGN",
+            "SourceString": "LEEWAY",
+            "LocalizedString": "LEEWAY"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "LEEWAY_INTRODUCE",
+            "SourceString": "LEEWAY INTRODUCE",
+            "LocalizedString": "LEEWAY INTRODUCE"
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SNIPE.DESCRIPTION",
+            "SourceString": "Designated Marksman",
+            "LocalizedString": "Designated Marksman"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Sniper.Tex_StaticUI_Logo_Sniper",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_LEEWAY_Inst.Mat_StaticUI_Image_LEEWAY_Inst",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MARKSMAN_1",
+              "SourceString": "Steady Aim",
+              "LocalizedString": "Steady Aim"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MARKSMAN_2",
+              "SourceString": "Recoil Control",
+              "LocalizedString": "Recoil Control"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MARKSMAN_1",
+              "SourceString": "Years of training make your aim more stable",
+              "LocalizedString": "Years of training make your aim more stable"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MARKSMAN_2",
+              "SourceString": "Use an external arm to further reduce your muzzle flip",
+              "LocalizedString": "Use an external arm to further reduce your muzzle flip"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "MARKSMAN_1",
+                "SourceString": "Steady Aim",
+                "LocalizedString": "Steady Aim"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/Menu_V2/Textures/Career/Tex_UI_Icon_AOSkill_SteadyAim2.Tex_UI_Icon_AOSkill_SteadyAim2",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "MARKSMAN_1",
+                "SourceString": "Years of training make your aim more stable",
+                "LocalizedString": "Years of training make your aim more stable"
+              }
+            },
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "MARKSMAN_2",
+                "SourceString": "Recoil Control",
+                "LocalizedString": "Recoil Control"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Sniper.T_SkillIcon_Sniper",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "MARKSMAN_2",
+                "SourceString": "Use an external arm to further reduce your muzzle flip",
+                "LocalizedString": "Use an external arm to further reduce your muzzle flip"
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Basic",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Medium",
+          "MobilityLevel": "EPBCharacterPropertyLevel::Medium",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_LEEWAY_Inst.Mat_StaticUI_Image_LEEWAY_Inst",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/Test/CT_NewSystemTest/Sign2.Sign2",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_P_L.SER_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Sniper.Sniper",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SNIPE.CALLSIGN",
+            "SourceString": "LEEWAY",
+            "LocalizedString": "LEEWAY"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Sniper.Tex_StaticUI_Logo_Sniper",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "SNIPER_GSW-PSR",
+            "SNIPER_GSW-AMR",
+            "SNIPER_RU-MOSIN",
+            "SNIPER_RU-SVD",
+            "SNIPER_GSW-DMR",
+            "SNIPER_GSW-CDP",
+            "SNIPER_GSW-FOP",
+            "SNIPER_GSW-IDW",
+            "SNIPER_RU-APS"
+          ],
+          "PodScope": [
+            "SNIPER_TAC-EMP",
+            "SNIPER_SMK-TRI",
+            "SNIPER_INFO-SNAPSHOT",
+            "SNIPER_INFO-MOTION",
+            "SNIPER_ATK-HE"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "SNIPER_FCM-GRAPPLE",
+            "SNIPER_FCM-BRAKE"
+          ],
+          "SpaceSuitSkinScope": [
+            "SNIPER_ORIGINAL",
+            "SNIPER_AMD"
+          ],
+          "ArmBadgeScope": [
+            "ABGYangDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6001003",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_SniperVehicle_BP.PB_SniperVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Sniper.PBCharacter_BP_Sniper_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_LEEWAY_EA.DA_CharacterDefault_LEEWAY_EA",
+          "SubPathString": ""
+        }
+      },
+      "FORT": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_FORT.CALLSIGN",
+            "SourceString": "FORT",
+            "LocalizedString": "FORT"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "SHIELDER_INTRODUCE",
+            "SourceString": "Senior engineer, able to use a variety of tactical props.",
+            "LocalizedString": "Senior engineer, able to use a variety of tactical props."
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_FORT.DESCRIPTION",
+            "SourceString": "Orbital Fortress",
+            "LocalizedString": "Orbital Fortress"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Tank.Tex_StaticUI_Logo_Tank",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX.ALEX",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "HEAVY_GUNNER_1",
+              "SourceString": "Hi-efficiency Radiator",
+              "LocalizedString": "Hi-efficiency Radiator"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "HEAVY_GUNNER_2",
+              "SourceString": "Ballistic shield",
+              "LocalizedString": "Ballistic shield"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "HEAVY_GUNNER_1",
+              "SourceString": "Thanks to the radiator, you can accelerate for a longer time",
+              "LocalizedString": "Thanks to the radiator, you can accelerate for a longer time"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "HEAVY_GUNNER_2",
+              "SourceString": "Portable folding shield. Only pylon weapons are available while shield is activated",
+              "LocalizedString": "Portable folding shield. Only pylon weapons are available while shield is activated"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "BB35E16F41A47292A01222BEC5A83146",
+                "SourceString": "Active Defence",
+                "LocalizedString": "Active Defence"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Recon.T_SkillIcon_Recon",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "EEDE536047CD1E6F2195F9B2E8186E8E",
+                "SourceString": "Actively intercept all incoming grenade-type projectiles.",
+                "LocalizedString": "Actively intercept all incoming grenade-type projectiles."
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "4D2839DE43D15212A38F96B237C431E0",
+                "SourceString": "Heavy Firepower",
+                "LocalizedString": "Heavy Firepower"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD/Weapons/UI_Icon/Tex_UI_EquipIcon_HiveMissile.Tex_UI_EquipIcon_HiveMissile",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "4B0C07754D8136FD691134851E5E42B0",
+                "SourceString": "Crush the enemy with ripple-fire rockets.",
+                "LocalizedString": "Crush the enemy with ripple-fire rockets."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::High",
+          "ArmorLevel": "EPBCharacterPropertyLevel::High",
+          "MobilityLevel": "EPBCharacterPropertyLevel::Basic",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX.ALEX",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX_Sign.ALEX_Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX_P_L.ALEX_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Tank.Tank",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_FORT.CALLSIGN",
+            "SourceString": "FORT",
+            "LocalizedString": "FORT"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Tank.Tex_StaticUI_Logo_Tank",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "FORT_GSW-MG",
+            "FORT_RU-RPK",
+            "FORT_GSW-AR",
+            "FORT_RU-AKM",
+            "FORT_GSW-IDW",
+            "FORT_GSW-FOP",
+            "FORT_GSW-CDP",
+            "FORT_RU-APS"
+          ],
+          "PodScope": [
+            "FORT_TAC-ADS",
+            "FORT_TAC-EMP",
+            "FORT_SMK-TRI",
+            "FORT_TAC-MINE",
+            "FORT_ATK-HE",
+            "FORT_ATK-40CANNON"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "FORT_FCM-GRAPPLE",
+            "FORT_FCM-BRAKE"
+          ],
+          "SpaceSuitSkinScope": [
+            "FORT_ORIGINAL",
+            "FORT_TIGER",
+            "FORT_ENGINEERY"
+          ],
+          "ArmBadgeScope": [
+            "ABGFortDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGEngineer",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOTigerHatAlexandra",
+            "HOEngineer"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6003001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_EnduranceVehicle_BP.PB_EnduranceVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Tank.PBCharacter_BP_Tank_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_FORT_EA.DA_CharacterDefault_FORT_EA",
+          "SubPathString": ""
+        }
+      },
+      "SPIKE": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SPIKER.CALLSIGN",
+            "SourceString": "SPIKE",
+            "LocalizedString": "SPIKE"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "SPIKER_INTRODUCE",
+            "SourceString": "Highly mobile, proficient space assassin in close-quarter combat.",
+            "LocalizedString": "Highly mobile, proficient space assassin in close-quarter combat."
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SPIKER.DESCRIPTION",
+            "SourceString": "Silent Assassin",
+            "LocalizedString": "Silent Assassin"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assassin.Tex_StaticUI_Logo_Assassin",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_ER_Inst.Mat_StaticUI_Image_ER_Inst",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "BASIC",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "MEDIUM",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "ULTRA",
+            "SourceString": "ULTRA",
+            "LocalizedString": "ULTRA"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "FLANKER_1",
+              "SourceString": "Pile Hammer",
+              "LocalizedString": "Pile Hammer"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "FLANKER_2",
+              "SourceString": "Electronic Silence",
+              "LocalizedString": "Electronic Silence"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "FLANKER_1",
+              "SourceString": "Pile hammer provides more melee damage",
+              "LocalizedString": "Pile hammer provides more melee damage"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "FLANKER_2",
+              "SourceString": "Cut off the power and make you invisible from enemy radar sight",
+              "LocalizedString": "Cut off the power and make you invisible from enemy radar sight"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "FLANKER_1",
+                "SourceString": "Pile Hammer",
+                "LocalizedString": "Pile Hammer"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Assassin.T_SkillIcon_Assassin",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "FLANKER_1",
+                "SourceString": "Pile hammer provides more melee damage",
+                "LocalizedString": "Pile hammer provides more melee damage"
+              }
+            },
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "FLANKER_2",
+                "SourceString": "Electronic Silence",
+                "LocalizedString": "Electronic Silence"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Slient_4.T_SkillIcon_Slient_4",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "FLANKER_2",
+                "SourceString": "Cut off the power and make you invisible from enemy radar sight",
+                "LocalizedString": "Cut off the power and make you invisible from enemy radar sight"
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Medium",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Basic",
+          "MobilityLevel": "EPBCharacterPropertyLevel::High",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_ER_Inst.Mat_StaticUI_Image_ER_Inst",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/Test/CT_NewSystemTest/Sign5.Sign5",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YAOYI_P_L.YAOYI_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Flanker.Flanker",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SPIKER.CALLSIGN",
+            "SourceString": "SPIKE",
+            "LocalizedString": "SPIKE"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assassin.Tex_StaticUI_Logo_Assassin",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "SPIKE_GSW-SG",
+            "SPIKE_GSW-CARKIT",
+            "SPIKE_GSW-PCC",
+            "SPIKE_GSW-SMG",
+            "SPIKE_GSW-PSR-C",
+            "SPIKE_GSW-FOP",
+            "SPIKE_GSW-IDW",
+            "SPIKE_GSW-CDP",
+            "SPIKE_RU-APS"
+          ],
+          "PodScope": [
+            "SPIKE_TAC-IMPLUSE",
+            "SPIKE_TAC-EMP",
+            "SPIKE_SMK-SQUID"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-HAMMER",
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "SPIKE_FCM-GRAPPLE",
+            "SPIKE_FCM-DASH"
+          ],
+          "SpaceSuitSkinScope": [
+            "SPIKE_ORIGINAL",
+            "SPIKE_TIGER",
+            "SPIKE_DRAGONBLUE"
+          ],
+          "ArmBadgeScope": [
+            "ABGSpikeDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGDragonYear",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HODragonSpike"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6002001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_BurstVehicle_BP.PB_BurstVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Assassin.PBCharacter_BP_Assassin_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_SPIKE_EA.DA_CharacterDefault_SPIKE_EA",
+          "SubPathString": ""
+        }
+      },
+      "FIXER": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_DOC.CALLSIGN",
+            "SourceString": "DOC",
+            "LocalizedString": "DOC"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "FIXER_INTRODUCE",
+            "SourceString": "█████***Authorization Required*** ██████",
+            "LocalizedString": "█████***Authorization Required*** ██████"
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_DOC.DESCRIPTION",
+            "SourceString": "Combat Medic",
+            "LocalizedString": "Combat Medic"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Medic.Tex_StaticUI_Logo_Medic",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YI.YI",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "BASIC",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "MEDIUM",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "HIGH",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MECH_DOCTOR_1",
+              "SourceString": "Repair drone",
+              "LocalizedString": "Repair drone"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MECH_DOCTOR_2",
+              "SourceString": "Revive Drone",
+              "LocalizedString": "Revive Drone"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MECH_DOCTOR_1",
+              "SourceString": "Repairs nearby friendly EMU suit",
+              "LocalizedString": "Repairs nearby friendly EMU suit"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MECH_DOCTOR_2",
+              "SourceString": "Revive nearby ally",
+              "LocalizedString": "Revive nearby ally"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "6540894640BD19C1D6C327A62DF479B1",
+                "SourceString": "Repair Pod",
+                "LocalizedString": "Repair Pod"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIconMedic_Sub.T_SkillIconMedic_Sub",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "025362F74FDC5F0E4B799EB25A7B76C3",
+                "SourceString": "On deploy, the little drone will provide auto repair service to all nearby friendly.",
+                "LocalizedString": "On deploy, the little drone will provide auto repair service to all nearby friendly."
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "2E97AD71461A3E9D35E92BAEF53D6DE2",
+                "SourceString": "Zero-G Dancer",
+                "LocalizedString": "Zero-G Dancer"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/Menu_V2/Textures/Career/Tex_UI_Icon_AOSkill_SteadyAim2.Tex_UI_Icon_AOSkill_SteadyAim2",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "B2E8C2374838CD0EE950178BEFD7DE54",
+                "SourceString": "Light suit combined with profound space walk skills, Yi travels with incredible agility and deadly elegance.",
+                "LocalizedString": "Light suit combined with profound space walk skills, Yi travels with incredible agility and deadly elegance."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Medium",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Basic",
+          "MobilityLevel": "EPBCharacterPropertyLevel::High",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YI.YI",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YI_Sign.YI_Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YAOYI_P_L.YAOYI_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Medic.Medic",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_DOC.CALLSIGN",
+            "SourceString": "DOC",
+            "LocalizedString": "DOC"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Medic.Tex_StaticUI_Logo_Medic",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "FIXER_GSW-SG",
+            "FIXER_GSW-SMG",
+            "FIXER_GSW-PCC",
+            "FIXER_GSW-CARKIT",
+            "FIXER_GSW-CDP",
+            "FIXER_GSW-FOP",
+            "FIXER_GSW-IDW",
+            "FIXER_RU-APS",
+            "FIXER_GSW-PSR-C",
+            "FIXER_RU-SAIGA12"
+          ],
+          "PodScope": [
+            "FIXER_TAC-IMPLUSE",
+            "FIXER_TAC-EMP",
+            "FIXER_TAC-MED",
+            "FIXER_ATK-HE"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "FIXER_FCM-BOOST",
+            "FIXER_FCM-GRAPPLE",
+            "FIXER_FCM-BRAKE"
+          ],
+          "SpaceSuitSkinScope": [
+            "FIXER_ORIGINAL",
+            "FIXER_TIGER",
+            "FIXER_DRAGONRED"
+          ],
+          "ArmBadgeScope": [
+            "ABGDocDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGDragonYear",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOTigerHatYaoYi",
+            "HODragonFixer"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6002001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_BurstVehicle_BP.PB_BurstVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Medic.PBCharacter_BP_Medic_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_DOC_EA.DA_CharacterDefault_DOC_EA",
+          "SubPathString": ""
+        }
+      },
+      "SPIDER": {
+        "Description": {
+          "RoleName": {
+            "Namespace": "",
+            "Key": "9894099F4C4FCBE126EF09A0AFC22FED",
+            "SourceString": "SPIDER",
+            "LocalizedString": "SPIDER"
+          },
+          "RoleDes": {
+            "CultureInvariantString": null
+          },
+          "CharacterDutyText": {
+            "CultureInvariantString": null
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assassin.Tex_StaticUI_Logo_Assassin",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_ER_Inst.Mat_StaticUI_Image_ER_Inst",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "BASIC",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "BASIC",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "HIGH",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "ASSULTER_1",
+              "SourceString": "Gunslinger",
+              "LocalizedString": "Gunslinger"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "ASSULTER_2",
+              "SourceString": "Accelerator",
+              "LocalizedString": "Accelerator"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "ASSULTER_1",
+              "SourceString": "Combat experience makes you handy with handheld weapons",
+              "LocalizedString": "Combat experience makes you handy with handheld weapons"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "ASSULTER_2",
+              "SourceString": "Pumps in your favorite functional substances increases neural excitability",
+              "LocalizedString": "Pumps in your favorite functional substances increases neural excitability"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "2673493A4E4E35745E3B638E1430E840",
+                "SourceString": "Compressor Shield",
+                "LocalizedString": "Compressor Shield"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIconSuport.T_SkillIconSuport",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "1CBEDEA74940BD3A098288B4D8CD73EE",
+                "SourceString": "Overpressure the suit's semi-liquid armor to resist more damage.##\"It's not comfortable, but effective.\"",
+                "LocalizedString": "Overpressure the suit's semi-liquid armor to resist more damage.##\"It's not comfortable, but effective.\""
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "48E742C0413046DC4485DA8A61980643",
+                "SourceString": "Com-Bloc Gunner",
+                "LocalizedString": "Com-Bloc Gunner"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Sniper1.T_SkillIcon_Sniper1",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "CAD89B4E45526F908A17C48628FCC1F1",
+                "SourceString": "Call them old school, what ever.##Those Com-Bloc style firearms make Sergeyev feels right at home.",
+                "LocalizedString": "Call them old school, what ever.##Those Com-Bloc style firearms make Sergeyev feels right at home."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Basic",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Basic",
+          "MobilityLevel": "EPBCharacterPropertyLevel::High",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_ER_Inst.Mat_StaticUI_Image_ER_Inst",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/Test/CT_NewSystemTest/Sign5.Sign5",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YAOYI_P_L.YAOYI_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Flanker.Flanker",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "1E11742F40D08DA826F538AE443A0012",
+            "SourceString": "SPIDER",
+            "LocalizedString": "SPIDER"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assassin.Tex_StaticUI_Logo_Assassin",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "SPIDER_EVENT-TP82"
+          ],
+          "PodScope": [
+            "SPIDER_EMP-INF",
+            "SPIDER_EVENT-SQUID-INF"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "EVENT-FCM-GRAPPLE"
+          ],
+          "SpaceSuitSkinScope": [
+            "SPIKE_SPIDER"
+          ],
+          "ArmBadgeScope": [],
+          "HeadAccessoryScope": [],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6002001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_BurstVehicle_BP.PB_BurstVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Assassin.PBCharacter_BP_Assassin_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/PAX_Characters/MemeAO/DA_CharacterDefault_SPIDER.DA_CharacterDefault_SPIDER",
+          "SubPathString": ""
+        }
+      },
+      "BILL": {
+        "Description": {
+          "RoleName": {
+            "Namespace": "",
+            "Key": "322074F342CEBB4B293F93AC00A3A465",
+            "SourceString": "ScaraM",
+            "LocalizedString": "ScaraM"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "VODKA_INTRODUCE",
+            "SourceString": "Former police instructor, proficient in all kinds of firearms.",
+            "LocalizedString": "Former police instructor, proficient in all kinds of firearms."
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PEACE.DESCRIPTION",
+            "SourceString": "Firearms Expert",
+            "LocalizedString": "Firearms Expert"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assault.Tex_StaticUI_Logo_Assault",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER.SER",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "ASSULTER_1",
+              "SourceString": "Gunslinger",
+              "LocalizedString": "Gunslinger"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "ASSULTER_2",
+              "SourceString": "Accelerator",
+              "LocalizedString": "Accelerator"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "ASSULTER_1",
+              "SourceString": "Combat experience makes you handy with handheld weapons",
+              "LocalizedString": "Combat experience makes you handy with handheld weapons"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "ASSULTER_2",
+              "SourceString": "Pumps in your favorite functional substances increases neural excitability",
+              "LocalizedString": "Pumps in your favorite functional substances increases neural excitability"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "42140D74437FFBB3E299419724DBA121",
+                "SourceString": "Compressor Shield",
+                "LocalizedString": "Compressor Shield"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIconSuport.T_SkillIconSuport",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "E9821FBE4BBD24E1AC74C59ED83FFD5C",
+                "SourceString": "Overpressure the suit's semi-liquid armor to resist more damage.##\"It's not comfortable, but effective.\"",
+                "LocalizedString": "Overpressure the suit's semi-liquid armor to resist more damage.##\"It's not comfortable, but effective.\""
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "C5144C50498CD239B34580BC623E12AC",
+                "SourceString": "Com-Bloc Gunner",
+                "LocalizedString": "Com-Bloc Gunner"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Sniper1.T_SkillIcon_Sniper1",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "1DBE21EB475480AD086E3C8DAF166DE1",
+                "SourceString": "Call them old school, what ever.##Those Com-Bloc style firearms make Sergeyev feels right at home.",
+                "LocalizedString": "Call them old school, what ever.##Those Com-Bloc style firearms make Sergeyev feels right at home."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Basic",
+          "ArmorLevel": "EPBCharacterPropertyLevel::High",
+          "MobilityLevel": "EPBCharacterPropertyLevel::Medium",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER.SER",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_Sign.SER_Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_P_L.SER_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Assaulter.Assaulter",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PEACE.CALLSIGN",
+            "SourceString": "ORLAN",
+            "LocalizedString": "ORLAN"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assault.Tex_StaticUI_Logo_Assault",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "BILL_EVENT-FOP"
+          ],
+          "PodScope": [],
+          "MeleeWeaponScope": [
+            "EVENT-HAMMER"
+          ],
+          "MobilityScope": [
+            "BILL_FCM-DASH"
+          ],
+          "SpaceSuitSkinScope": [
+            "PEACE_ORIGINAL",
+            "PEACE_TIGER"
+          ],
+          "ArmBadgeScope": [
+            "ABGOrlanDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOTigerHatSergey"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6001002",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_AssaulterVehicle_BP.PB_AssaulterVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Assault.PBCharacter_BP_Assault_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_GoldenGun_Event.DA_CharacterDefault_GoldenGun_Event",
+          "SubPathString": ""
+        }
+      },
+      "AI_PEACE": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PEACE.CALLSIGN",
+            "SourceString": "ORLAN",
+            "LocalizedString": "ORLAN"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "VODKA_INTRODUCE",
+            "SourceString": "Former police instructor, proficient in all kinds of firearms.",
+            "LocalizedString": "Former police instructor, proficient in all kinds of firearms."
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PEACE.DESCRIPTION",
+            "SourceString": "Firearms Expert",
+            "LocalizedString": "Firearms Expert"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assault.Tex_StaticUI_Logo_Assault",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER.SER",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "ASSULTER_1",
+              "SourceString": "Gunslinger",
+              "LocalizedString": "Gunslinger"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "ASSULTER_2",
+              "SourceString": "Accelerator",
+              "LocalizedString": "Accelerator"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "ASSULTER_1",
+              "SourceString": "Combat experience makes you handy with handheld weapons",
+              "LocalizedString": "Combat experience makes you handy with handheld weapons"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "ASSULTER_2",
+              "SourceString": "Pumps in your favorite functional substances increases neural excitability",
+              "LocalizedString": "Pumps in your favorite functional substances increases neural excitability"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "7A07E14846C48DBE74D1CEA4F0DB6FA2",
+                "SourceString": "Compressor Shield",
+                "LocalizedString": "Compressor Shield"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIconSuport.T_SkillIconSuport",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "4CBFA96A4BB8AEBA88A06283FCA84F1B",
+                "SourceString": "Overpressure the suit's semi-liquid armor to resist more damage.##\"It's not comfortable, but effective.\"",
+                "LocalizedString": "Overpressure the suit's semi-liquid armor to resist more damage.##\"It's not comfortable, but effective.\""
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "5BFDAEC2498A28C1CD63C7B6AE2E2FF9",
+                "SourceString": "Com-Bloc Gunner",
+                "LocalizedString": "Com-Bloc Gunner"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Sniper1.T_SkillIcon_Sniper1",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "BC4885354B8B57E08DF4A0AAF2B8703B",
+                "SourceString": "Call them old school, what ever.##Those Com-Bloc style firearms make Sergeyev feels right at home.",
+                "LocalizedString": "Call them old school, what ever.##Those Com-Bloc style firearms make Sergeyev feels right at home."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Basic",
+          "ArmorLevel": "EPBCharacterPropertyLevel::High",
+          "MobilityLevel": "EPBCharacterPropertyLevel::Medium",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER.SER",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_Sign.SER_Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_P_L.SER_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Assaulter.Assaulter",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PEACE.CALLSIGN",
+            "SourceString": "ORLAN",
+            "LocalizedString": "ORLAN"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assault.Tex_StaticUI_Logo_Assault",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "PEACE_RU-AKM",
+            "PEACE_GSW-AR",
+            "PEACE_GSW-DMR",
+            "PEACE_RU-SVD",
+            "PEACE_GSW-SMG",
+            "PEACE_GSW-PCC",
+            "PEACE_GSW-CARKIT",
+            "PEACE_RU-APS",
+            "PEACE_GSW-IDW",
+            "PEACE_GSW-FOP",
+            "PEACE_GSW-CDP"
+          ],
+          "PodScope": [
+            "PEACE_ATK-HE",
+            "PEACE_TAC-EMP"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "PEACE_FCM-BOOST",
+            "PEACE_FCM-GRAPPLE",
+            "PEACE_FCM-BRAKE",
+            "PEACE_FCM-DASH"
+          ],
+          "SpaceSuitSkinScope": [
+            "PEACE_ORIGINAL",
+            "PEACE_TIGER",
+            "PEACE_SOUNDING"
+          ],
+          "ArmBadgeScope": [
+            "ABGOrlanDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOTigerHatSergey",
+            "HOBearEarABlue",
+            "HOBearEarAPink"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": true,
+        "RadarID": "11001001",
+        "VehicleID": "6001002",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_AssaulterVehicle_BP.PB_AssaulterVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Assault.PBCharacter_BP_Assault_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_ORLAN_EA.DA_CharacterDefault_ORLAN_EA",
+          "SubPathString": ""
+        }
+      },
+      "AI_PROBE": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PROBE.CALLSIGN",
+            "SourceString": "PROBE",
+            "LocalizedString": "PROBE"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "PROBE_INTRODUCE",
+            "SourceString": "PROBE INTRODUCE",
+            "LocalizedString": "PROBE INTRODUCE"
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PROBE.DESCRIPTION",
+            "SourceString": "Frontline Early Warning",
+            "LocalizedString": "Frontline Early Warning"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Recon.Tex_StaticUI_Logo_Recon",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_PROBE_Inst.Mat_StaticUI_Image_PROBE_Inst",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "RECON_1",
+              "SourceString": "Passive Radar",
+              "LocalizedString": "Passive Radar"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "RECON_2",
+              "SourceString": "Probe Sensor",
+              "LocalizedString": "Probe Sensor"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "RECON_1",
+              "SourceString": "Lock all suspicious signal within a certain distance",
+              "LocalizedString": "Lock all suspicious signal within a certain distance"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "RECON_2",
+              "SourceString": "Scan for enemy signals after launched",
+              "LocalizedString": "Scan for enemy signals after launched"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "RECON_1",
+                "SourceString": "Passive Radar",
+                "LocalizedString": "Passive Radar"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/Menu_V2/Textures/Career/Tex_UI_Icon_AOSkill_PassiveRadar.Tex_UI_Icon_AOSkill_PassiveRadar",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "RECON_1",
+                "SourceString": "Lock all suspicious signal within a certain distance",
+                "LocalizedString": "Lock all suspicious signal within a certain distance"
+              }
+            },
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "RECON_2",
+                "SourceString": "Probe Sensor",
+                "LocalizedString": "Probe Sensor"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Recon.T_SkillIcon_Recon",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "RECON_2",
+                "SourceString": "Scan for enemy signals after launched",
+                "LocalizedString": "Scan for enemy signals after launched"
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Medium",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Basic",
+          "MobilityLevel": "EPBCharacterPropertyLevel::High",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_PROBE_Inst.Mat_StaticUI_Image_PROBE_Inst",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/Test/CT_NewSystemTest/Sign.Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_P_L.SER_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Recon.Recon",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PROBE.CALLSIGN",
+            "SourceString": "PROBE",
+            "LocalizedString": "PROBE"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Recon.Tex_StaticUI_Logo_Recon",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "PROBE_GSW-DMR",
+            "PROBE_GSW-AR",
+            "PROBE_RU-AKM",
+            "PROBE_RU-SVD",
+            "PROBE_GSW-CDP",
+            "PROBE_GSW-FOP",
+            "PROBE_GSW-IDW",
+            "PROBE_RU-APS"
+          ],
+          "PodScope": [
+            "PROBE_MISSILE-HIVE",
+            "PROBE_INFO-PROBE",
+            "PROBE_MISSILE-SPARROW",
+            "PROBE_TAC-EMP",
+            "PROBE_ATK-HE",
+            "PROBE_INFO-MOTION"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "PROBE_FCM-GRAPPLE",
+            "PROBE_FCM-BRAKE",
+            "PROBE_FCM-DASH"
+          ],
+          "SpaceSuitSkinScope": [
+            "PROBE_ORIGINAL"
+          ],
+          "ArmBadgeScope": [
+            "ABGProbeDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOBearEarABlue",
+            "HOBearEarAPink"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": true,
+        "RadarID": "11001001",
+        "VehicleID": "6001001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_StandardVehicle_BP.PB_StandardVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Recon.PBCharacter_BP_Recon_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_PROBE_EA_AI.DA_CharacterDefault_PROBE_EA_AI",
+          "SubPathString": ""
+        }
+      },
+      "AI_SNIPER": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SNIPE.CALLSIGN",
+            "SourceString": "LEEWAY",
+            "LocalizedString": "LEEWAY"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "LEEWAY_INTRODUCE",
+            "SourceString": "LEEWAY INTRODUCE",
+            "LocalizedString": "LEEWAY INTRODUCE"
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SNIPE.DESCRIPTION",
+            "SourceString": "Designated Marksman",
+            "LocalizedString": "Designated Marksman"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Sniper.Tex_StaticUI_Logo_Sniper",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_LEEWAY_Inst.Mat_StaticUI_Image_LEEWAY_Inst",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MARKSMAN_1",
+              "SourceString": "Steady Aim",
+              "LocalizedString": "Steady Aim"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MARKSMAN_2",
+              "SourceString": "Recoil Control",
+              "LocalizedString": "Recoil Control"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MARKSMAN_1",
+              "SourceString": "Years of training make your aim more stable",
+              "LocalizedString": "Years of training make your aim more stable"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MARKSMAN_2",
+              "SourceString": "Use an external arm to further reduce your muzzle flip",
+              "LocalizedString": "Use an external arm to further reduce your muzzle flip"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "MARKSMAN_1",
+                "SourceString": "Steady Aim",
+                "LocalizedString": "Steady Aim"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/Menu_V2/Textures/Career/Tex_UI_Icon_AOSkill_SteadyAim2.Tex_UI_Icon_AOSkill_SteadyAim2",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "MARKSMAN_1",
+                "SourceString": "Years of training make your aim more stable",
+                "LocalizedString": "Years of training make your aim more stable"
+              }
+            },
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "MARKSMAN_2",
+                "SourceString": "Recoil Control",
+                "LocalizedString": "Recoil Control"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Sniper.T_SkillIcon_Sniper",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "MARKSMAN_2",
+                "SourceString": "Use an external arm to further reduce your muzzle flip",
+                "LocalizedString": "Use an external arm to further reduce your muzzle flip"
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Basic",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Medium",
+          "MobilityLevel": "EPBCharacterPropertyLevel::Medium",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_LEEWAY_Inst.Mat_StaticUI_Image_LEEWAY_Inst",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/Test/CT_NewSystemTest/Sign2.Sign2",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_P_L.SER_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Sniper.Sniper",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SNIPE.CALLSIGN",
+            "SourceString": "LEEWAY",
+            "LocalizedString": "LEEWAY"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Sniper.Tex_StaticUI_Logo_Sniper",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "SNIPER_GSW-PSR",
+            "SNIPER_GSW-AMR",
+            "SNIPER_RU-MOSIN",
+            "SNIPER_RU-SVD",
+            "SNIPER_GSW-DMR",
+            "SNIPER_GSW-CDP",
+            "SNIPER_GSW-FOP",
+            "SNIPER_GSW-IDW",
+            "SNIPER_RU-APS"
+          ],
+          "PodScope": [
+            "SNIPER_TAC-EMP",
+            "SNIPER_SMK-TRI",
+            "SNIPER_INFO-SNAPSHOT",
+            "SNIPER_INFO-MOTION",
+            "SNIPER_ATK-HE"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "SNIPER_FCM-GRAPPLE",
+            "SNIPER_FCM-BRAKE",
+            "SNIPER_FCM-DASH"
+          ],
+          "SpaceSuitSkinScope": [
+            "SNIPER_ORIGINAL",
+            "SNIPER_AMD"
+          ],
+          "ArmBadgeScope": [
+            "ABGYangDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOBearEarABlue",
+            "HOBearEarAPink"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": true,
+        "RadarID": "11001001",
+        "VehicleID": "6001003",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_SniperVehicle_BP.PB_SniperVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Sniper.PBCharacter_BP_Sniper_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_LEEWAY_EA.DA_CharacterDefault_LEEWAY_EA",
+          "SubPathString": ""
+        }
+      },
+      "AI_FORT": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_FORT.CALLSIGN",
+            "SourceString": "FORT",
+            "LocalizedString": "FORT"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "SHIELDER_INTRODUCE",
+            "SourceString": "Senior engineer, able to use a variety of tactical props.",
+            "LocalizedString": "Senior engineer, able to use a variety of tactical props."
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_FORT.DESCRIPTION",
+            "SourceString": "Orbital Fortress",
+            "LocalizedString": "Orbital Fortress"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Tank.Tex_StaticUI_Logo_Tank",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX.ALEX",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "HEAVY_GUNNER_1",
+              "SourceString": "Hi-efficiency Radiator",
+              "LocalizedString": "Hi-efficiency Radiator"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "HEAVY_GUNNER_2",
+              "SourceString": "Ballistic shield",
+              "LocalizedString": "Ballistic shield"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "HEAVY_GUNNER_1",
+              "SourceString": "Thanks to the radiator, you can accelerate for a longer time",
+              "LocalizedString": "Thanks to the radiator, you can accelerate for a longer time"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "HEAVY_GUNNER_2",
+              "SourceString": "Portable folding shield. Only pylon weapons are available while shield is activated",
+              "LocalizedString": "Portable folding shield. Only pylon weapons are available while shield is activated"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "D1FFA5434D3D6F576362ECAA2DEAB5CC",
+                "SourceString": "Active Defence",
+                "LocalizedString": "Active Defence"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Recon.T_SkillIcon_Recon",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "DB53B46C4B56E244B498AD8AE753A323",
+                "SourceString": "Actively intercept all incoming grenade-type projectiles.",
+                "LocalizedString": "Actively intercept all incoming grenade-type projectiles."
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "3A87E49641EDD6ADEB2D11AEE6568B11",
+                "SourceString": "Heavy Firepower",
+                "LocalizedString": "Heavy Firepower"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD/Weapons/UI_Icon/Tex_UI_EquipIcon_HiveMissile.Tex_UI_EquipIcon_HiveMissile",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "9F91729247B000B5F7C85A82E63499D8",
+                "SourceString": "Crush the enemy with ripple-fire rockets.",
+                "LocalizedString": "Crush the enemy with ripple-fire rockets."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::High",
+          "ArmorLevel": "EPBCharacterPropertyLevel::High",
+          "MobilityLevel": "EPBCharacterPropertyLevel::Basic",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX.ALEX",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX_Sign.ALEX_Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX_P_L.ALEX_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Tank.Tank",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_FORT.CALLSIGN",
+            "SourceString": "FORT",
+            "LocalizedString": "FORT"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Tank.Tex_StaticUI_Logo_Tank",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "FORT_GSW-MG",
+            "FORT_RU-RPK",
+            "FORT_GSW-AR",
+            "FORT_RU-AKM",
+            "FORT_GSW-IDW",
+            "FORT_GSW-FOP",
+            "FORT_GSW-CDP",
+            "FORT_RU-APS"
+          ],
+          "PodScope": [
+            "FORT_TAC-ADS",
+            "FORT_TAC-EMP",
+            "FORT_SMK-TRI",
+            "FORT_TAC-MINE",
+            "FORT_ATK-HE",
+            "FORT_ATK-40CANNON"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "FORT_FCM-GRAPPLE",
+            "FORT_FCM-BRAKE",
+            "FORT_FCM-DASH"
+          ],
+          "SpaceSuitSkinScope": [
+            "FORT_ORIGINAL",
+            "FORT_TIGER",
+            "FORT_ENGINEERY",
+            "FORT_PINK"
+          ],
+          "ArmBadgeScope": [
+            "ABGFortDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGEngineer",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOTigerHatAlexandra",
+            "HOEngineer",
+            "HOBearEarABlue",
+            "HOBearEarAPink"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": true,
+        "RadarID": "11001001",
+        "VehicleID": "6003001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_EnduranceVehicle_BP.PB_EnduranceVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Tank.PBCharacter_BP_Tank_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_FORT_EA.DA_CharacterDefault_FORT_EA",
+          "SubPathString": ""
+        }
+      },
+      "AI_SPIKE": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SPIKER.CALLSIGN",
+            "SourceString": "SPIKE",
+            "LocalizedString": "SPIKE"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "SPIKER_INTRODUCE",
+            "SourceString": "Highly mobile, proficient space assassin in close-quarter combat.",
+            "LocalizedString": "Highly mobile, proficient space assassin in close-quarter combat."
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SPIKER.DESCRIPTION",
+            "SourceString": "Silent Assassin",
+            "LocalizedString": "Silent Assassin"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assassin.Tex_StaticUI_Logo_Assassin",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_ER_Inst.Mat_StaticUI_Image_ER_Inst",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "BASIC",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "MEDIUM",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "ULTRA",
+            "SourceString": "ULTRA",
+            "LocalizedString": "ULTRA"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "FLANKER_1",
+              "SourceString": "Pile Hammer",
+              "LocalizedString": "Pile Hammer"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "FLANKER_2",
+              "SourceString": "Electronic Silence",
+              "LocalizedString": "Electronic Silence"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "FLANKER_1",
+              "SourceString": "Pile hammer provides more melee damage",
+              "LocalizedString": "Pile hammer provides more melee damage"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "FLANKER_2",
+              "SourceString": "Cut off the power and make you invisible from enemy radar sight",
+              "LocalizedString": "Cut off the power and make you invisible from enemy radar sight"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "FLANKER_1",
+                "SourceString": "Pile Hammer",
+                "LocalizedString": "Pile Hammer"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Assassin.T_SkillIcon_Assassin",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "FLANKER_1",
+                "SourceString": "Pile hammer provides more melee damage",
+                "LocalizedString": "Pile hammer provides more melee damage"
+              }
+            },
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "FLANKER_2",
+                "SourceString": "Electronic Silence",
+                "LocalizedString": "Electronic Silence"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Slient_4.T_SkillIcon_Slient_4",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "FLANKER_2",
+                "SourceString": "Cut off the power and make you invisible from enemy radar sight",
+                "LocalizedString": "Cut off the power and make you invisible from enemy radar sight"
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Medium",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Basic",
+          "MobilityLevel": "EPBCharacterPropertyLevel::High",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_ER_Inst.Mat_StaticUI_Image_ER_Inst",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/Test/CT_NewSystemTest/Sign5.Sign5",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YAOYI_P_L.YAOYI_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Flanker.Flanker",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SPIKER.CALLSIGN",
+            "SourceString": "SPIKE",
+            "LocalizedString": "SPIKE"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assassin.Tex_StaticUI_Logo_Assassin",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "SPIKE_GSW-SG",
+            "SPIKE_GSW-CARKIT",
+            "SPIKE_GSW-PCC",
+            "SPIKE_GSW-SMG",
+            "SPIKE_GSW-PSR-C",
+            "SPIKE_GSW-FOP",
+            "SPIKE_GSW-IDW",
+            "SPIKE_GSW-CDP",
+            "SPIKE_RU-APS"
+          ],
+          "PodScope": [
+            "SPIKE_TAC-IMPLUSE",
+            "SPIKE_TAC-EMP",
+            "SPIKE_SMK-SQUID"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-HAMMER",
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "SPIKE_FCM-GRAPPLE",
+            "SPIKE_FCM-DASH"
+          ],
+          "SpaceSuitSkinScope": [
+            "SPIKE_ORIGINAL",
+            "SPIKE_TIGER"
+          ],
+          "ArmBadgeScope": [
+            "ABGSpikeDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOBearEarABlue",
+            "HOBearEarAPink"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": true,
+        "RadarID": "11001001",
+        "VehicleID": "6002001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_BurstVehicle_BP.PB_BurstVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Assassin.PBCharacter_BP_Assassin_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_SPIKE_EA_AI.DA_CharacterDefault_SPIKE_EA_AI",
+          "SubPathString": ""
+        }
+      },
+      "AI_FIXER": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_DOC.CALLSIGN",
+            "SourceString": "DOC",
+            "LocalizedString": "DOC"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "FIXER_INTRODUCE",
+            "SourceString": "█████***Authorization Required*** ██████",
+            "LocalizedString": "█████***Authorization Required*** ██████"
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_DOC.DESCRIPTION",
+            "SourceString": "Combat Medic",
+            "LocalizedString": "Combat Medic"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Medic.Tex_StaticUI_Logo_Medic",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YI.YI",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "BASIC",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "MEDIUM",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "HIGH",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MECH_DOCTOR_1",
+              "SourceString": "Repair drone",
+              "LocalizedString": "Repair drone"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MECH_DOCTOR_2",
+              "SourceString": "Revive Drone",
+              "LocalizedString": "Revive Drone"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MECH_DOCTOR_1",
+              "SourceString": "Repairs nearby friendly EMU suit",
+              "LocalizedString": "Repairs nearby friendly EMU suit"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MECH_DOCTOR_2",
+              "SourceString": "Revive nearby ally",
+              "LocalizedString": "Revive nearby ally"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "66DCE25B4FB040335F134CA56B348E96",
+                "SourceString": "Repair Pod",
+                "LocalizedString": "Repair Pod"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIconMedic_Sub.T_SkillIconMedic_Sub",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "D3A889CC490C8CDDDDD6549E2F84C48D",
+                "SourceString": "On deploy, the little drone will provide auto repair service to all nearby friendly.",
+                "LocalizedString": "On deploy, the little drone will provide auto repair service to all nearby friendly."
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "FC2E14C34BA2010795B572B264360275",
+                "SourceString": "Zero-G Dancer",
+                "LocalizedString": "Zero-G Dancer"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/Menu_V2/Textures/Career/Tex_UI_Icon_AOSkill_SteadyAim2.Tex_UI_Icon_AOSkill_SteadyAim2",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "65B23E1446ED66E1A8276986F67B82A9",
+                "SourceString": "Light suit combined with profound space walk skills, Yi travels with incredible agility and deadly elegance.",
+                "LocalizedString": "Light suit combined with profound space walk skills, Yi travels with incredible agility and deadly elegance."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Medium",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Basic",
+          "MobilityLevel": "EPBCharacterPropertyLevel::High",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YI.YI",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YI_Sign.YI_Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YAOYI_P_L.YAOYI_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Medic.Medic",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_DOC.CALLSIGN",
+            "SourceString": "DOC",
+            "LocalizedString": "DOC"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Medic.Tex_StaticUI_Logo_Medic",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "FIXER_GSW-SG",
+            "FIXER_GSW-SMG",
+            "FIXER_GSW-PCC",
+            "FIXER_GSW-CARKIT",
+            "FIXER_GSW-CDP",
+            "FIXER_GSW-FOP",
+            "FIXER_GSW-IDW",
+            "FIXER_RU-APS",
+            "FIXER_GSW-PSR-C",
+            "FIXER_RU-SAIGA12"
+          ],
+          "PodScope": [
+            "FIXER_TAC-IMPLUSE",
+            "FIXER_TAC-EMP",
+            "FIXER_TAC-MED",
+            "FIXER_ATK-HE"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "FIXER_FCM-BOOST",
+            "FIXER_FCM-GRAPPLE",
+            "FIXER_FCM-BRAKE",
+            "FIXER_FCM-DASH"
+          ],
+          "SpaceSuitSkinScope": [
+            "FIXER_ORIGINAL",
+            "FIXER_TIGER",
+            "FIXER_RESCUE"
+          ],
+          "ArmBadgeScope": [
+            "ABGDocDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries",
+            "ABGFoZhu",
+            "ABGHuoShan",
+            "ABGLangRen",
+            "ABGYingYou",
+            "ABGJiuCi",
+            "ABGXiaoSong",
+            "ABGFeiDie",
+            "ABGLeiLei",
+            "ABGXiaoSheng",
+            "ABGChinaJoy"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOTigerHatYaoYi",
+            "HOBearEarABlue",
+            "HOBearEarAPink"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": true,
+        "RadarID": "11001001",
+        "VehicleID": "6002001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_BurstVehicle_BP.PB_BurstVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Medic.PBCharacter_BP_Medic_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/EarlyAccess/DA_CharacterDefault_DOC_EA.DA_CharacterDefault_DOC_EA",
+          "SubPathString": ""
+        }
+      },
+      "SPIDER_HC": {
+        "Description": {
+          "RoleName": {
+            "Namespace": "",
+            "Key": "E085AA894582146D385458A2847A0B4A",
+            "SourceString": "SPIDER",
+            "LocalizedString": "SPIDER"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "FIXER_INTRODUCE",
+            "SourceString": "█████***Authorization Required*** ██████",
+            "LocalizedString": "█████***Authorization Required*** ██████"
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_DOC.DESCRIPTION",
+            "SourceString": "Combat Medic",
+            "LocalizedString": "Combat Medic"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Setting/Tex_StaticUI_Icon_SettingOption_Interaction.Tex_StaticUI_Icon_SettingOption_Interaction",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YI.YI",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "BASIC",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "MEDIUM",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+            "Key": "HIGH",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MECH_DOCTOR_1",
+              "SourceString": "Repair drone",
+              "LocalizedString": "Repair drone"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MECH_DOCTOR_2",
+              "SourceString": "Revive Drone",
+              "LocalizedString": "Revive Drone"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MECH_DOCTOR_1",
+              "SourceString": "Repairs nearby friendly EMU suit",
+              "LocalizedString": "Repairs nearby friendly EMU suit"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MECH_DOCTOR_2",
+              "SourceString": "Revive nearby ally",
+              "LocalizedString": "Revive nearby ally"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "9426C84B4B4440018E604E8527F1F99C",
+                "SourceString": "Repair Pod",
+                "LocalizedString": "Repair Pod"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIconMedic_Sub.T_SkillIconMedic_Sub",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "AE534DE742B1C49A3FD5828C4AFB9C74",
+                "SourceString": "On deploy, the little drone will provide auto repair service to all nearby friendly.",
+                "LocalizedString": "On deploy, the little drone will provide auto repair service to all nearby friendly."
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "2850252842834ACA026B11B1B7FFE156",
+                "SourceString": "Zero-G Dancer",
+                "LocalizedString": "Zero-G Dancer"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/Menu_V2/Textures/Career/Tex_UI_Icon_AOSkill_SteadyAim2.Tex_UI_Icon_AOSkill_SteadyAim2",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "4EED378440C5A160B0C222B4CA834856",
+                "SourceString": "Light suit combined with profound space walk skills, Yi travels with incredible agility and deadly elegance.",
+                "LocalizedString": "Light suit combined with profound space walk skills, Yi travels with incredible agility and deadly elegance."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Medium",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Basic",
+          "MobilityLevel": "EPBCharacterPropertyLevel::High",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YI.YI",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YI_Sign.YI_Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/YAOYI_P_L.YAOYI_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Setting/Tex_StaticUI_Icon_SettingOption_Interaction.Tex_StaticUI_Icon_SettingOption_Interaction",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_DOC.CALLSIGN",
+            "SourceString": "DOC",
+            "LocalizedString": "DOC"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Medic.Tex_StaticUI_Logo_Medic",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "FIXER_GSW-SG_HC",
+            "FIXER_GSW-SMG_HC",
+            "FIXER_GSW-PCC_HC",
+            "FIXER_GSW-CARKIT_HC",
+            "FIXER_GSW-CDP_HC",
+            "FIXER_GSW-FOP_HC",
+            "FIXER_GSW-IDW_HC",
+            "FIXER_RU-APS_HC",
+            "FIXER_GSW-PSR-C_HC"
+          ],
+          "PodScope": [
+            "FIXER_TAC-IMPLUSE",
+            "FIXER_TAC-EMP",
+            "FIXER_TAC-MED",
+            "FIXER_ATK-HE"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "FIXER_FCM-BOOST",
+            "FIXER_FCM-GRAPPLE",
+            "FIXER_FCM-BRAKE"
+          ],
+          "SpaceSuitSkinScope": [
+            "FIXER_ORIGINAL",
+            "FIXER_TIGER"
+          ],
+          "ArmBadgeScope": [
+            "ABGDocDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOTigerHatYaoYi"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6002001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_BurstVehicle_BP.PB_BurstVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Characters/MobileArmors/BP_MobileArmor.BP_MobileArmor_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/Hardcore/DA_CharacterDefault_DOC_HC.DA_CharacterDefault_DOC_HC",
+          "SubPathString": ""
+        }
+      },
+      "RECON-HC": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Operations/SpecialCharacter.SpecialCharacter",
+            "Key": "Operations_SpecialCharacter_Recon.Name",
+            "SourceString": "RECON",
+            "LocalizedString": "RECON"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "LEEWAY_INTRODUCE",
+            "SourceString": "LEEWAY INTRODUCE",
+            "LocalizedString": "LEEWAY INTRODUCE"
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_SNIPE.DESCRIPTION",
+            "SourceString": "Designated Marksman",
+            "LocalizedString": "Designated Marksman"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Sniper.Tex_StaticUI_Logo_Sniper",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_LEEWAY_Inst.Mat_StaticUI_Image_LEEWAY_Inst",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MARKSMAN_1",
+              "SourceString": "Steady Aim",
+              "LocalizedString": "Steady Aim"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "MARKSMAN_2",
+              "SourceString": "Recoil Control",
+              "LocalizedString": "Recoil Control"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MARKSMAN_1",
+              "SourceString": "Years of training make your aim more stable",
+              "LocalizedString": "Years of training make your aim more stable"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "MARKSMAN_2",
+              "SourceString": "Use an external arm to further reduce your muzzle flip",
+              "LocalizedString": "Use an external arm to further reduce your muzzle flip"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "MARKSMAN_1",
+                "SourceString": "Steady Aim",
+                "LocalizedString": "Steady Aim"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/Menu_V2/Textures/Career/Tex_UI_Icon_AOSkill_SteadyAim2.Tex_UI_Icon_AOSkill_SteadyAim2",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "MARKSMAN_1",
+                "SourceString": "Years of training make your aim more stable",
+                "LocalizedString": "Years of training make your aim more stable"
+              }
+            },
+            {
+              "AbilityName": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+                "Key": "MARKSMAN_2",
+                "SourceString": "Recoil Control",
+                "LocalizedString": "Recoil Control"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Sniper.T_SkillIcon_Sniper",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+                "Key": "MARKSMAN_2",
+                "SourceString": "Use an external arm to further reduce your muzzle flip",
+                "LocalizedString": "Use an external arm to further reduce your muzzle flip"
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Basic",
+          "ArmorLevel": "EPBCharacterPropertyLevel::Medium",
+          "MobilityLevel": "EPBCharacterPropertyLevel::Medium",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/Mat_StaticUI_Image_LEEWAY_Inst.Mat_StaticUI_Image_LEEWAY_Inst",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/Test/CT_NewSystemTest/Sign2.Sign2",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_P_L.SER_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Sniper.Sniper",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Operations/SpecialCharacter.SpecialCharacter",
+            "Key": "Operations_SpecialCharacter_Recon.Name",
+            "SourceString": "RECON",
+            "LocalizedString": "RECON"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Sniper.Tex_StaticUI_Logo_Sniper",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "SNIPER_GSW-PSR-HC",
+            "SNIPER_RU-SVD-HC",
+            "SNIPER_GSW-FOP-HC",
+            "SNIPER_RU-APS-HC"
+          ],
+          "PodScope": [
+            "SNIPER_INFO-SNAPSHOT",
+            "PROBE_INFO-PROBE",
+            "PROBE_MISSILE-HIVE-DIRECT",
+            "PROBE_MISSILE-SPARROW"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "SNIPER_FCM-GRAPPLE"
+          ],
+          "SpaceSuitSkinScope": [
+            "SNIPER_ORIGINAL",
+            "SNIPER_AMD"
+          ],
+          "ArmBadgeScope": [
+            "ABGYangDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6001003",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_SniperVehicle_BP.PB_SniperVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Sniper.PBCharacter_BP_Sniper_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/Hardcore/DA_CharacterDefault_LEEWAY_HC.DA_CharacterDefault_LEEWAY_HC",
+          "SubPathString": ""
+        }
+      },
+      "ASSAULT-HC": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Operations/SpecialCharacter.SpecialCharacter",
+            "Key": "Operations_SpecialCharacter_Assault.Name",
+            "SourceString": "ASSAULT",
+            "LocalizedString": "ASSAULT"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "VODKA_INTRODUCE",
+            "SourceString": "Former police instructor, proficient in all kinds of firearms.",
+            "LocalizedString": "Former police instructor, proficient in all kinds of firearms."
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_PEACE.DESCRIPTION",
+            "SourceString": "Firearms Expert",
+            "LocalizedString": "Firearms Expert"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assault.Tex_StaticUI_Logo_Assault",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER.SER",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_MediumAttributes.Content",
+            "SourceString": "MEDIUM",
+            "LocalizedString": "MEDIUM"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "ASSULTER_1",
+              "SourceString": "Gunslinger",
+              "LocalizedString": "Gunslinger"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "ASSULTER_2",
+              "SourceString": "Accelerator",
+              "LocalizedString": "Accelerator"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "ASSULTER_1",
+              "SourceString": "Combat experience makes you handy with handheld weapons",
+              "LocalizedString": "Combat experience makes you handy with handheld weapons"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "ASSULTER_2",
+              "SourceString": "Pumps in your favorite functional substances increases neural excitability",
+              "LocalizedString": "Pumps in your favorite functional substances increases neural excitability"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "226572B547EF0FA28A4ED4AFDA052A4F",
+                "SourceString": "Compressor Shield",
+                "LocalizedString": "Compressor Shield"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIconSuport.T_SkillIconSuport",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "8C5155CC4C06398F911C8996B155D2CD",
+                "SourceString": "Overpressure the suit's semi-liquid armor to resist more damage.##\"It's not comfortable, but effective.\"",
+                "LocalizedString": "Overpressure the suit's semi-liquid armor to resist more damage.##\"It's not comfortable, but effective.\""
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "7E09C13E4C35046A2CC4DDB7A92FB1B1",
+                "SourceString": "Com-Bloc Gunner",
+                "LocalizedString": "Com-Bloc Gunner"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Sniper1.T_SkillIcon_Sniper1",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "E040DA124F2B1A44AAB43BB852262F82",
+                "SourceString": "Call them old school, what ever.##Those Com-Bloc style firearms make Sergeyev feels right at home.",
+                "LocalizedString": "Call them old school, what ever.##Those Com-Bloc style firearms make Sergeyev feels right at home."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::Basic",
+          "ArmorLevel": "EPBCharacterPropertyLevel::High",
+          "MobilityLevel": "EPBCharacterPropertyLevel::Medium",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER.SER",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_Sign.SER_Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/SER_P_L.SER_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Assaulter.Assaulter",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Operations/SpecialCharacter.SpecialCharacter",
+            "Key": "Operations_SpecialCharacter_Assault.Name",
+            "SourceString": "ASSAULT",
+            "LocalizedString": "ASSAULT"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Assault.Tex_StaticUI_Logo_Assault",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "PEACE_RU-AKM-HC",
+            "SPIKE_GSW-SG-HC",
+            "PEACE_RU-APS-HC",
+            "PEACE_GSW-FOP-HC"
+          ],
+          "PodScope": [
+            "PEACE_ATK-HE",
+            "PEACE_TAC-EMP",
+            "PEACE_SMK-TRI",
+            "SPIKE_SMK-SQUID"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "PEACE_FCM-GRAPPLE"
+          ],
+          "SpaceSuitSkinScope": [
+            "PEACE_ORIGINAL",
+            "PEACE_TIGER"
+          ],
+          "ArmBadgeScope": [
+            "ABGOrlanDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOTigerHatSergey"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6001002",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_AssaulterVehicle_BP.PB_AssaulterVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Assault.PBCharacter_BP_Assault_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/Hardcore/DA_CharacterDefault_ORLAN_HC.DA_CharacterDefault_ORLAN_HC",
+          "SubPathString": ""
+        }
+      },
+      "SUPPORT-HC": {
+        "Description": {
+          "RoleName": {
+            "TableId": "/Game/StringTable/Localization/Operations/SpecialCharacter.SpecialCharacter",
+            "Key": "Operations_SpecialCharacter_Support.Name",
+            "SourceString": "SUPPORT",
+            "LocalizedString": "SUPPORT"
+          },
+          "RoleDes": {
+            "TableId": "/Game/StringTable/Custom/Character/Custom_RoleIntroduce.Custom_RoleIntroduce",
+            "Key": "SHIELDER_INTRODUCE",
+            "SourceString": "Senior engineer, able to use a variety of tactical props.",
+            "LocalizedString": "Senior engineer, able to use a variety of tactical props."
+          },
+          "CharacterDutyText": {
+            "TableId": "/Game/StringTable/Localization/Item/Character/Character.Character",
+            "Key": "ITEM_CHARACTER_FORT.DESCRIPTION",
+            "SourceString": "Orbital Fortress",
+            "LocalizedString": "Orbital Fortress"
+          },
+          "RoleTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Tank.Tex_StaticUI_Logo_Tank",
+            "SubPathString": ""
+          },
+          "Sign": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "CharacterAvatar": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX.ALEX",
+            "SubPathString": ""
+          },
+          "ArmorDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "HealthDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_HighAttributes.Content",
+            "SourceString": "HIGH",
+            "LocalizedString": "HIGH"
+          },
+          "MobilityDes": {
+            "TableId": "/Game/StringTable/Localization/System/Customization.Customization",
+            "Key": "System_CSTM_BasicAttributes.Content",
+            "SourceString": "BASIC",
+            "LocalizedString": "BASIC"
+          },
+          "TalentNamesDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "HEAVY_GUNNER_1",
+              "SourceString": "Hi-efficiency Radiator",
+              "LocalizedString": "Hi-efficiency Radiator"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentName.Custom_TalentName",
+              "Key": "HEAVY_GUNNER_2",
+              "SourceString": "Ballistic shield",
+              "LocalizedString": "Ballistic shield"
+            }
+          ],
+          "TalentDetailDes": [
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "HEAVY_GUNNER_1",
+              "SourceString": "Thanks to the radiator, you can accelerate for a longer time",
+              "LocalizedString": "Thanks to the radiator, you can accelerate for a longer time"
+            },
+            {
+              "TableId": "/Game/StringTable/Custom/Character/Custom_TalentDes.Custom_TalentDes",
+              "Key": "HEAVY_GUNNER_2",
+              "SourceString": "Portable folding shield. Only pylon weapons are available while shield is activated",
+              "LocalizedString": "Portable folding shield. Only pylon weapons are available while shield is activated"
+            }
+          ],
+          "AbilityDetailArray": [
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "9DA275AA43E802FF32130EA3C25EEFEC",
+                "SourceString": "Active Defence",
+                "LocalizedString": "Active Defence"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD_V2/HelmetHUD_Item/SkillState/SkillIcon/T_SkillIcon_Recon.T_SkillIcon_Recon",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "6F1F2A5649CEEF7A664F639605D9A1B0",
+                "SourceString": "Actively intercept all incoming grenade-type projectiles.",
+                "LocalizedString": "Actively intercept all incoming grenade-type projectiles."
+              }
+            },
+            {
+              "AbilityName": {
+                "Namespace": "",
+                "Key": "447F9ABA4DBBDBB5B64004BA0B8CDBD5",
+                "SourceString": "Heavy Firepower",
+                "LocalizedString": "Heavy Firepower"
+              },
+              "AbilityTexture": {
+                "AssetPathName": "/Game/UI/HUD/Weapons/UI_Icon/Tex_UI_EquipIcon_HiveMissile.Tex_UI_EquipIcon_HiveMissile",
+                "SubPathString": ""
+              },
+              "AbilityDescription": {
+                "Namespace": "",
+                "Key": "5693715C411A69D26A8D1B82B6832F10",
+                "SourceString": "Crush the enemy with ripple-fire rockets.",
+                "LocalizedString": "Crush the enemy with ripple-fire rockets."
+              }
+            }
+          ],
+          "HealthLevel": "EPBCharacterPropertyLevel::High",
+          "ArmorLevel": "EPBCharacterPropertyLevel::High",
+          "MobilityLevel": "EPBCharacterPropertyLevel::Basic",
+          "CharacterImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX.ALEX",
+            "SubPathString": ""
+          },
+          "SignImage": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX_Sign.ALEX_Sign",
+            "SubPathString": ""
+          },
+          "CharacterPhotoBig": {
+            "AssetPathName": "/Game/UI/MainMenu/Universal/ArtAssets/ALEX_P_L.ALEX_P_L",
+            "SubPathString": ""
+          },
+          "CharacterIcon": {
+            "AssetPathName": "/Game/UI/Menu_V2/Textures/Profile/Photo/Tank.Tank",
+            "SubPathString": ""
+          },
+          "DisplayName": {
+            "TableId": "/Game/StringTable/Localization/Operations/SpecialCharacter.SpecialCharacter",
+            "Key": "Operations_SpecialCharacter_Support.Name",
+            "SourceString": "SUPPORT",
+            "LocalizedString": "SUPPORT"
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "LargeTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MediumTexture": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "SmallTexture": {
+            "AssetPathName": "/Game/UI/Character_Icon/Tex_StaticUI_Logo_Tank.Tex_StaticUI_Logo_Tank",
+            "SubPathString": ""
+          },
+          "ItemType": "EPBItemType::Character"
+        },
+        "CustomScope": {
+          "WeaponScope": [
+            "FORT_GSW-MG-HC",
+            "FORT_RU-RPK-HC",
+            "FORT_GSW-FOP-HC",
+            "FORT_RU-APS-HC"
+          ],
+          "PodScope": [
+            "FORT_TAC-ADS",
+            "FIXER_TAC-MED",
+            "FORT_MINIGUN-SHIELD",
+            "FORT_MISSILE-SHIELDHOVER"
+          ],
+          "MeleeWeaponScope": [
+            "MELEE-KNIFE"
+          ],
+          "MobilityScope": [
+            "FORT_FCM-GRAPPLE"
+          ],
+          "SpaceSuitSkinScope": [
+            "FORT_ORIGINAL",
+            "FORT_TIGER",
+            "FORT_ENGINEERY"
+          ],
+          "ArmBadgeScope": [
+            "ABGFortDefault",
+            "ABGNSFW01",
+            "ABGNoEntry",
+            "ABGNoShow",
+            "ABGOldMemory",
+            "ABGNoSignal",
+            "ABGForerunner",
+            "ABGNSFW02",
+            "ABGAnnihilator",
+            "ABGHighLander",
+            "ABGMeteorites",
+            "ABGElectricShock",
+            "ABGSenpai",
+            "ABGNanShanOrbitalDfense",
+            "ABGKOI",
+            "ABGNightWatch",
+            "ABGPioneerX",
+            "ABGTiger",
+            "ABGSpaceKitty",
+            "ABGEngineer",
+            "ABGBanBenShu",
+            "ABGMrBill",
+            "ABGGuRenTongXin",
+            "ABGHuJiaoWangGuan",
+            "ABGATian",
+            "ABGHeyBox",
+            "ABGShenJingGe",
+            "ABGMiao",
+            "ABGQiYou",
+            "ABGUU",
+            "ABGXunYou",
+            "ABGLeiGod",
+            "ABGLevelCap",
+            "ABGGamerSky",
+            "ABGQingBaoJu",
+            "ABGVGN",
+            "ABGHuYaZhuBo",
+            "ABGHuYaGuanZhong",
+            "ABDDouYin",
+            "ABGAMD",
+            "ABGROG",
+            "ABGSteelSeries"
+          ],
+          "HeadAccessoryScope": [
+            "HONONE",
+            "HOGoatHorn",
+            "HOBullHorn",
+            "HORhinoHorn",
+            "HOUFO",
+            "HONoteBoard",
+            "HORocket",
+            "HOSatellite",
+            "HOLightBulb",
+            "HOSteelTarget",
+            "HOUnicorn",
+            "HOTigerHatAlexandra",
+            "HOEngineer"
+          ],
+          "VehicleScope": []
+        },
+        "OwnedQuota": 20,
+        "bIsBot": false,
+        "RadarID": "11001001",
+        "VehicleID": "6003001",
+        "RadarClass": {
+          "AssetPathName": "/Game/Blueprints/Radars/HeatDetector/PSXBaseHeatDetector_BP.PSXBaseHeatDetector_BP_C",
+          "SubPathString": ""
+        },
+        "VehicleClass": {
+          "AssetPathName": "/Game/Blueprints/EMU/PB_EnduranceVehicle_BP.PB_EnduranceVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "CharacterClass": {
+          "AssetPathName": "/Game/Gameplay/Character/PBCharacter_BP_Tank.PBCharacter_BP_Tank_C",
+          "SubPathString": ""
+        },
+        "DefaultConfig": {
+          "AssetPathName": "/Game/GameData/DefalutData/Characters/Hardcore/DA_CharacterDefault_FORT_HC.DA_CharacterDefault_FORT_HC",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

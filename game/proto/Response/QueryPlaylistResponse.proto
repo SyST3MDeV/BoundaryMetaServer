@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message QueryPlaylistResponse{
+    int32 StatusCode = 1;
+    string PlaylistsJSON = 2;
+}

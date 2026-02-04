@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message ItemData{
+    string ItemId = 1;
+    sint32 Unknown1 = 2;
+    sint32 Unknown2 = 3;
+    sint32 Unknown3 = 4;
+}
+
+message QueryAssetsResponse{
+    int32 ItemCount = 1;
+    repeated ItemData ItemDatas = 2;
+}

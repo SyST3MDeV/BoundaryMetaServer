@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message TestGateResponse{
+    int32 ErrorCode = 1;
+    string Method = 2;
+    int32 Something = 3;
+    string SomethingElse = 4;
+}

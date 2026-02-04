@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package ProjectBoundary;
+
+message RequestWrapper{
+    int32 MessageId = 1;
+    string RPCPath = 2;
+    optional bytes Message = 3;
+}

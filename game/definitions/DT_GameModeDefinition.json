@@ -1,0 +1,885 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_GameModeDefinition",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_GameModeDefinition_Release'",
+          "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/Item/Release/DT_GameModeDefinition_Release.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PBGameModeDefinitionRow'",
+        "ObjectPath": "/Script/ProjectBoundary"
+      }
+    },
+    "Rows": {
+      "DMTN": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Capture.Name",
+          "SourceString": "DOMINATION",
+          "LocalizedString": "DOMINATION"
+        },
+        "MatchmakingString": "DMTN",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Capture.ShortDes",
+          "SourceString": "CAPTURE THE POINTS",
+          "LocalizedString": "CAPTURE THE POINTS"
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Capture.FullDes",
+          "SourceString": "Capture and hold strategical position to win.",
+          "LocalizedString": "Capture and hold strategical position to win."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "CircularX"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "Oriolus"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "GangesRiver"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Capture.FullDes",
+          "SourceString": "Capture and hold strategical position to win.",
+          "LocalizedString": "Capture and hold strategical position to win."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_DMTNModeIcon.T_DMTNModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [
+          "QuickPlay"
+        ],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 10,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "Rush": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Rush.Name",
+          "SourceString": "TEAM DEATHMATCH",
+          "LocalizedString": "TEAM DEATHMATCH"
+        },
+        "MatchmakingString": "Rush",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Rush.ShortDes",
+          "SourceString": "ELIMINATE ALL HOSTILES",
+          "LocalizedString": "ELIMINATE ALL HOSTILES"
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Rush.FullDes",
+          "SourceString": "The first team that gets 75 eliminations wins the game.",
+          "LocalizedString": "The first team that gets 75 eliminations wins the game."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "OSS"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "MiniFarm"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "CircularX"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "warehouse"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "DataCenter"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Rush.FullDes",
+          "SourceString": "The first team that gets 75 eliminations wins the game.",
+          "LocalizedString": "The first team that gets 75 eliminations wins the game."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_TDMModeIcon.T_TDMModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [
+          "QuickPlay"
+        ],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 10,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "Purge": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Purge.Name",
+          "SourceString": "PURGE",
+          "LocalizedString": "PURGE"
+        },
+        "MatchmakingString": "Purge",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Purge.ShortDes",
+          "SourceString": "NO RESPAWN, ELIMINATE ALL HOSTILE",
+          "LocalizedString": "NO RESPAWN, ELIMINATE ALL HOSTILE"
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Purge.FullDes",
+          "SourceString": "No reswapn, eliminate all enemy to gain victory.",
+          "LocalizedString": "No reswapn, eliminate all enemy to gain victory."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "OSS"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "MiniFarm"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "CircularX"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Purge.FullDes",
+          "SourceString": "No reswapn, eliminate all enemy to gain victory.",
+          "LocalizedString": "No reswapn, eliminate all enemy to gain victory."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_PurgeModeIcon.T_PurgeModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [
+          "QuickPlay"
+        ],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 10,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "CapFlag": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_CapFlag.Name",
+          "SourceString": "SABOTAGE",
+          "LocalizedString": "SABOTAGE"
+        },
+        "MatchmakingString": "CapFlag",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_CapFlag.ShortDes",
+          "SourceString": "INVADE AND DESTROY ENEMY BASES",
+          "LocalizedString": "INVADE AND DESTROY ENEMY BASES"
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_CapFlag.FullDes",
+          "SourceString": "INVADE ENEMY BASES USING SPECIAL EQUIPMENT ON THE MAP, WHICH IS UPDATED IN THE CENTRE OF THE MAP.",
+          "LocalizedString": "INVADE ENEMY BASES USING SPECIAL EQUIPMENT ON THE MAP, WHICH IS UPDATED IN THE CENTRE OF THE MAP."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "DataCenter"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "RelayStation"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_CapFlag.FullDes",
+          "SourceString": "INVADE ENEMY BASES USING SPECIAL EQUIPMENT ON THE MAP, WHICH IS UPDATED IN THE CENTRE OF THE MAP.",
+          "LocalizedString": "INVADE ENEMY BASES USING SPECIAL EQUIPMENT ON THE MAP, WHICH IS UPDATED IN THE CENTRE OF THE MAP."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_Sabotage_ModeIcon.T_Sabotage_ModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [
+          "QuickPlay"
+        ],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 10,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "Conquest": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Conquest.Name",
+          "SourceString": "INVASION",
+          "LocalizedString": "INVASION"
+        },
+        "MatchmakingString": "Conquest",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Conquest.ShortDes",
+          "SourceString": "Conquest enemy facilities.",
+          "LocalizedString": "Conquest enemy facilities."
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Conquest.FullDes",
+          "SourceString": "Whenever an objective is captured by the attacker, the next objective is activated and the attacker needs to capture as many objective points as possible from the defender.",
+          "LocalizedString": "Whenever an objective is captured by the attacker, the next objective is activated and the attacker needs to capture as many objective points as possible from the defender."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "GangesRiver"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "Oriolus"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Conquest.FullDes",
+          "SourceString": "Whenever an objective is captured by the attacker, the next objective is activated and the attacker needs to capture as many objective points as possible from the defender.",
+          "LocalizedString": "Whenever an objective is captured by the attacker, the next objective is activated and the attacker needs to capture as many objective points as possible from the defender."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_InvasionModeIcon.T_InvasionModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [
+          "QuickPlay"
+        ],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 10,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "WarehouseRush": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Rush.Name",
+          "SourceString": "TEAM DEATHMATCH",
+          "LocalizedString": "TEAM DEATHMATCH"
+        },
+        "MatchmakingString": "WarehouseRush",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Rush.ShortDes",
+          "SourceString": "ELIMINATE ALL HOSTILES",
+          "LocalizedString": "ELIMINATE ALL HOSTILES"
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Rush.FullDes",
+          "SourceString": "The first team that gets 75 eliminations wins the game.",
+          "LocalizedString": "The first team that gets 75 eliminations wins the game."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "warehouse"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Rush.FullDes",
+          "SourceString": "The first team that gets 75 eliminations wins the game.",
+          "LocalizedString": "The first team that gets 75 eliminations wins the game."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_TDMModeIcon.T_TDMModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [
+          "QuickPlay"
+        ],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 10,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "NavalBoarding": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_NavalBoarding.Name",
+          "SourceString": "NAVAL BOARDING",
+          "LocalizedString": "NAVAL BOARDING"
+        },
+        "MatchmakingString": "NavalBoarding",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_NavalBoarding.ShortDes",
+          "SourceString": "ELIMINATE ALL HOSTILES.",
+          "LocalizedString": "ELIMINATE ALL HOSTILES."
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_NavalBoarding.FullDes",
+          "SourceString": "The first team that gets 50 eliminations wins the game.",
+          "LocalizedString": "The first team that gets 50 eliminations wins the game."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "Museum"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_NavalBoarding.FullDes",
+          "SourceString": "The first team that gets 50 eliminations wins the game.",
+          "LocalizedString": "The first team that gets 50 eliminations wins the game."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/Tex_UI_GameMode_Weekend.Tex_UI_GameMode_Weekend",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [
+          "QuickPlay"
+        ],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 10,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "GoldenGun": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_GoldenGun.Name",
+          "SourceString": "GOLDEN GUN",
+          "LocalizedString": "GOLDEN GUN"
+        },
+        "MatchmakingString": "GoldenGun",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_GoldenGun.Intro",
+          "SourceString": "ONE SHOT ONE KILL\r\n※NO OPERATOR EXP REWARD",
+          "LocalizedString": "ONE SHOT ONE KILL\r\n※NO OPERATOR EXP REWARD"
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_GoldenGun.FullDes",
+          "SourceString": "The first team that gets 75 eliminations wins the game.\r\n※NO OPERATOR EXP REWARD",
+          "LocalizedString": "The first team that gets 75 eliminations wins the game.\r\n※NO OPERATOR EXP REWARD"
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "MiniFarm"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_Rush.FullDes",
+          "SourceString": "The first team that gets 75 eliminations wins the game.",
+          "LocalizedString": "The first team that gets 75 eliminations wins the game."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/Tex_UI_GameMode_GoldenGun.Tex_UI_GameMode_GoldenGun",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [
+          "QuickPlay"
+        ],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 10,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "Hardcore": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_Extravehicular-Activity.Name",
+          "SourceString": "EXTRAVEHICULAR-ACTIVITY",
+          "LocalizedString": "EXTRAVEHICULAR-ACTIVITY"
+        },
+        "MatchmakingString": "Extravehicular-Activity",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_Extravehicular-Activity.Intro",
+          "SourceString": "CONQUEST ENEMY TARGET POINTS",
+          "LocalizedString": "CONQUEST ENEMY TARGET POINTS"
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_Extravehicular-Activity.FullDes",
+          "SourceString": "Capture as many target points as possible.※NO OPERATOR EXP REWARD",
+          "LocalizedString": "Capture as many target points as possible.※NO OPERATOR EXP REWARD"
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "Oriolus"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "GangesRiver"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "DataCenter"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_Extravehicular-Activity.ShorDes",
+          "SourceString": "CONQUEST ALL ENEMY TARGET POINTS",
+          "LocalizedString": "CONQUEST ALL ENEMY TARGET POINTS"
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/Tex_UI_GameMode_Hardcore.Tex_UI_GameMode_Hardcore",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [
+          "QuickPlay"
+        ],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 10,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "Dusty": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_Dusty.Name",
+          "SourceString": "DUSTY",
+          "LocalizedString": "DUSTY"
+        },
+        "MatchmakingString": "Dusty",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_Dusty.ShorDes",
+          "SourceString": "THE FIRST TEAM TO REACH 75 CAPTURE POINTS GOAL WINS.",
+          "LocalizedString": "THE FIRST TEAM TO REACH 75 CAPTURE POINTS GOAL WINS."
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_Dusty.FullDes",
+          "SourceString": "The first team to reach 75 capture points goal wins.",
+          "LocalizedString": "The first team to reach 75 capture points goal wins."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "Dusty"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/Operations/SpecialMode.SpecialMode",
+          "Key": "Operations_SpecialMode_Dusty.ShorDes",
+          "SourceString": "THE FIRST TEAM TO REACH 75 CAPTURE POINTS GOAL WINS.",
+          "LocalizedString": "THE FIRST TEAM TO REACH 75 CAPTURE POINTS GOAL WINS."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_DMTNModeIcon.T_DMTNModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 0,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "QuickPlay": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_QuickPlay.Name",
+          "SourceString": "QUICK PLAY",
+          "LocalizedString": "QUICK PLAY"
+        },
+        "MatchmakingString": "QUICK PLAY",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_QuickPlay.ShortDes",
+          "SourceString": "WIN THE GAME",
+          "LocalizedString": "WIN THE GAME"
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_QuickPlay.FullDes",
+          "SourceString": "Join a game quickly",
+          "LocalizedString": "Join a game quickly"
+        },
+        "MapsForMatch": [],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_QuickPlay.ShortDes",
+          "SourceString": "WIN THE GAME",
+          "LocalizedString": "WIN THE GAME"
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_TDMModeIcon.T_TDMModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 0,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "Rush_PVE_Easy": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Easy.Name",
+          "SourceString": "EASY BOT",
+          "LocalizedString": "EASY BOT"
+        },
+        "MatchmakingString": "EASY BOT",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Easy.ShortDes",
+          "SourceString": "ELIMINATE ALL HOSTILES.",
+          "LocalizedString": "ELIMINATE ALL HOSTILES."
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Hard.FullDes",
+          "SourceString": "The first team that gets 75 eliminations wins the game.",
+          "LocalizedString": "The first team that gets 75 eliminations wins the game."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "warehouse"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "DataCenter"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Easy.ShortDes",
+          "SourceString": "ELIMINATE ALL HOSTILES.",
+          "LocalizedString": "ELIMINATE ALL HOSTILES."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_TDMModeIcon.T_TDMModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 5,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "Rush_PVE_Normal": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Normal.Name",
+          "SourceString": "NORMAL BOT",
+          "LocalizedString": "NORMAL BOT"
+        },
+        "MatchmakingString": "NORMAL BOT",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Normal.ShortDes",
+          "SourceString": "ELIMINATE ALL HOSTILES.",
+          "LocalizedString": "ELIMINATE ALL HOSTILES."
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Normal.FullDes",
+          "SourceString": "The first team that gets 75 eliminations wins the game.",
+          "LocalizedString": "The first team that gets 75 eliminations wins the game."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "MiniFarm"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "CircularX"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "OSS"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Normal.ShortDes",
+          "SourceString": "ELIMINATE ALL HOSTILES.",
+          "LocalizedString": "ELIMINATE ALL HOSTILES."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_TDMModeIcon.T_TDMModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 5,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      },
+      "Rush_PVE_Hard": {
+        "GameModeName": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Hard.Name",
+          "SourceString": "HARD BOT",
+          "LocalizedString": "HARD BOT"
+        },
+        "MatchmakingString": "HARD BOT",
+        "GameModeSimpleDescreiption": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Hard.ShortDes",
+          "SourceString": "ELIMINATE ALL HOSTILES.",
+          "LocalizedString": "ELIMINATE ALL HOSTILES."
+        },
+        "GameModeDetailedDescription": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Hard.FullDes",
+          "SourceString": "The first team that gets 75 eliminations wins the game.",
+          "LocalizedString": "The first team that gets 75 eliminations wins the game."
+        },
+        "MapsForMatch": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "OSS"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable'DT_GameMapDefinition'",
+              "ObjectPath": "ProjectBoundary/Content/GameData/CSVConfig/DT_GameMapDefinition.0"
+            },
+            "RowName": "CircularX"
+          }
+        ],
+        "VictoryCondition": {
+          "TableId": "/Game/StringTable/Localization/GameMode/GameMode.GameMode",
+          "Key": "GameMode_GameMode_PVE.Hard.ShortDes",
+          "SourceString": "ELIMINATE ALL HOSTILES.",
+          "LocalizedString": "ELIMINATE ALL HOSTILES."
+        },
+        "GameModeIcon": {
+          "AssetPathName": "/Game/UI/Menu_V2/Textures/Assignment/T_TDMModeIcon.T_TDMModeIcon",
+          "SubPathString": ""
+        },
+        "GameModeDetailedImage": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ApplicableModes": [],
+        "bAllyDamage": false,
+        "bTeamChange": false,
+        "GameTime": 0,
+        "PlayerNum": 5,
+        "RoundNum": 0,
+        "GameStartTip": {
+          "CultureInvariantString": null
+        }
+      }
+    }
+  }
+]
