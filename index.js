@@ -19,7 +19,12 @@ app.use((req, res, next) => {
 const MatchmakingHost = "204.12.195.98";
 const MatchmakingPort = 9000;
 
-const matchmakingUDPServerDiscoveryPayload = {"servers":[{"location_id":6,"region_id":"336d1f3e-3ecb-11eb-a7dc-3b7705f20f56","ipv4":MatchmakingHost,"ipv6":"","port":MatchmakingPort}]}
+const matchmakingUDPServerDiscoveryPayload = {
+  servers: [
+    { location_id: 6, region_id: "336d1f3e-3ecb-11eb-a7dc-3b7705f20f56", ipv4: MatchmakingHost, ipv6: "", port: MatchmakingPort },
+    { location_id: 10, region_id: "11111111-2222-4333-8444-555555555501", ipv4: MatchmakingHost, ipv6: "", port: MatchmakingPort },
+  ],
+};
 
 app.get("/", (req, res) => {
   res.status(200).json(matchmakingUDPServerDiscoveryPayload);
@@ -138,16 +143,11 @@ const TEMP_USER_ID = "76561198211631084"
 
 let PartyPresence = "InMatching";
 
-function BuildRegionList(){
-  //[{RegionId: "336d1f3e-3ecb-11eb-a7dc-3b7705f20f56", RegionName: "us-east1"}]
-
-  let RegionList = [];
-
-  for(let Region in matchmakingUDPServerDiscoveryPayload.servers){
-    RegionList.push({RegionId: Region.regionid, RegionName: "us-east1"});
-  }
-
-  return RegionList;
+function BuildRegionList() {
+  return [
+    { RegionId: matchmakingUDPServerDiscoveryPayload.servers[0].region_id, RegionName: "us-east1" },
+    { RegionId: matchmakingUDPServerDiscoveryPayload.servers[1].region_id, RegionName: "asia-east2" },
+  ];
 }
 
 let fs = require("fs");
